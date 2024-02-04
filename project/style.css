@@ -8,3 +8,57 @@ html, body {
     width: 100vw;
     height: 100vh;
 }
+nav{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+nav .heading{
+    display: flex;
+    gap: 20px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+nav li{
+    list-style: none;
+}
+nav li a:hover{
+    color: blue;
+}
+nav .three-line i{
+    font-size: 30px;
+    display: none;
+}
+.banner .photos img{
+    width: 300px;
+    height: 300px;
+}
+.banner .photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+.banner{
+    margin-top: 2%;
+}
+@media(max-width:610px){
+    nav .three-line i{
+        display:block;
+    }
+    nav .heading{
+        display: none;
+
+    }
+    nav{
+        display: flex;
+        justify-content: right;
+        margin-right: 20px;
+    }
+    .banner{
+        margin-top: 5%;
+    }
+
+}
