@@ -8,3 +8,16 @@ html, body {
     width: 100vw;
     height: 100vh;
 }
+.big-container2{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.photo video{
+    width: 600px;
+    height: 300px;
+
+}
