@@ -63,6 +63,16 @@ nav .three-line i{
     }
 
 }
+.service-head{
+    display: flex;
+    padding: 20px 30px;
+    background-color: darkgrey;
+    text-align: justify;
+}
+.service-img img{
+    max-width: 500px;
+    height: auto;
+}
 
 .contact-details {
     padding:20px;
