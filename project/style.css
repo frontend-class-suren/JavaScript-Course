@@ -9,7 +9,6 @@ html, body {
     height: 100vh;
 }
 
-<<<<<<< HEAD
 nav{
     display: flex;
     padding-top: 20px;
@@ -349,9 +348,3 @@ button:hover {
         text-align: right;
     }
 }
-=======
-.container {
-    display: flex;
-    background-image: none;
-}
->>>>>>> himal
