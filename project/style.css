@@ -8,35 +8,23 @@ html, body {
     width: 100vw;
     height: 100vh;
 }
-
-.big-container2 {
+.big-container2{
     background-color: rgb(255, 255, 255);
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
+.photo video{
+    width: 600px;
+    height: 300px;
+    
 
-.photo video {
-    width: 100%; /* Set the initial width to 100% */
-    height: auto; /* Let the height adjust automatically to maintain aspect ratio */
 }
-
-.btn3 {
+.btn3{
     border: 1px solid green;
     background-color: green;
     padding: 10px;
     color: white;
-}
-
-/* Media query for smaller screens */
-@media only screen and (max-width: 768px) {
-    .big-container2 {
-        flex-direction: column; /* Change the flex direction to column */
-        height: auto; /* Allow the container to adjust its height based on content */
-    }
-
-    .photo video {
-        width: 100%; /* Set the video width to 100% */
-    }
 }
