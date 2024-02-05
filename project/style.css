@@ -348,3 +348,7 @@ button:hover {
         text-align: right;
     }
 }
+.container {
+    display: flex;
+    background-image: none;
+}
