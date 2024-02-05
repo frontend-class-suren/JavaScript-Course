@@ -352,3 +352,9 @@ button:hover {
     display: flex;
     background-image: none;
 }
+.icon{
+    color:red;
+    font-size: 25px;
+    
+
+}
