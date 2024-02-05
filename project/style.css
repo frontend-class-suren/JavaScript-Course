@@ -280,3 +280,23 @@ button:hover {
     background-color: white;
     color:red;
 }
+.big-container2{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.photo video{
+    width: 600px;
+    height: 300px;
+    
+
+}
+.btn3{
+    border: 1px solid green;
+    background-color: green;
+    padding: 10px;
+    color: white;
+}
