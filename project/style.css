@@ -5,6 +5,52 @@
 }
 
 html, body {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    background-color: rgb(17, 16, 16);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.logo {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos1 img,
+.logos2 img {
+    width: 100px;
+    height: auto;
+}
+
+.info {
+    margin: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .box {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .logos1 img,
+    .logos2 img {
+        width: 150px;
+    }
+
+    .info {
+        text-align: right;
+    }
 }
