@@ -67,4 +67,49 @@ Operator	Description	Example
 
 */
 
-console.log(2==2 & 2==3)
+// console.log(2==2 & 2==3)
+
+/*
+JavaScript Assignment Operators
+Assignment operators assign values to JavaScript variables.
+
+Operator	Example	Same As
+=	x = y	x = y
++=	x += y	x = x + y
+-=	x -= y	x = x - y
+*=	x *= y	x = x * y
+/=	x /= y	x = x / y
+%=	x %= y	x = x % y
+**=	x **= y	x = x ** y
+*/
+//Example for Assignment Operators
+// var x = 1
+// x += 1
+// console.log(x)
+// console.log((2==='2')? 'Yes': 'No') 
+// 10100
+
+
+/*
+JavaScript If-else
+The JavaScript if-else statement is used to execute the code whether condition is true or false. There are three forms of if statement in JavaScript.
+
+If Statement
+If else statement
+if else if statement
+*/
+
+//1-If Statement 
+
+/*
+Syntax:====>
+if(expression|condition) {
+    here is code
+}
+
+It evaluates the content only if expression is true. The signature of JavaScript if statement is given below.
+*/
+let age=20;  
+if(age>18){  
+console.log("You are eligible for vote");  
+}  
