@@ -9,7 +9,6 @@ html, body {
     height: 100vh;
 }
 
-<<<<<<< HEAD
 nav{
     display: flex;
     padding-top: 20px;
@@ -63,6 +62,16 @@ nav .three-line i{
         margin-top: 5%;
     }
 
+}
+.service-head{
+    display: flex;
+    padding: 20px 30px;
+    background-color: darkgrey;
+    text-align: justify;
+}
+.service-img img{
+    max-width: 500px;
+    height: auto;
 }
 
 .contact-details {
@@ -349,9 +358,7 @@ button:hover {
         text-align: right;
     }
 }
-=======
 .container {
     display: flex;
     background-image: none;
 }
->>>>>>> himal

@@ -9,12 +9,20 @@
         "listitem": "off"
       }
     ],
+<<<<<<< HEAD
+=======
+    "no-inline-styles": "off",
+>>>>>>> 758f84d79ba549cc6f616676ab3858b0a6fe3081
     "axe/forms": [
       "default",
       {
         "select-name": "off"
       }
+<<<<<<< HEAD
     ],
     "no-inline-styles": "off"
+=======
+    ]
+>>>>>>> 758f84d79ba549cc6f616676ab3858b0a6fe3081
   }
 }
