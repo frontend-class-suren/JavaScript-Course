@@ -133,10 +133,41 @@ else{
 //     console.log("Sorry You Fail the exam")
 // }
 
-let width = 300
-if(width >= 467){
-console.log("this is a Large Screen")
-}else{
- console.log("this mobile Screen")
-}
+// let width = 300
+// if(width >= 467){
+// console.log("this is a Large Screen")
+// }else{
+//  console.log("this mobile Screen")
+// }
 
+/*
+ 
+JavaScript If...else if statement
+It evaluates the content only if expression is true from several expressions. The signature of JavaScript if else if statement is given below.
+
+if(expression1){  
+//content to be evaluated if expression1 is true  
+}  
+else if(expression2){  
+//content to be evaluated if expression2 is true  
+}  
+else if(expression3){  
+//content to be evaluated if expression3 is true  
+}  
+else{  
+//content to be evaluated if no expression is true  
+}  
+*/
+var a=20;  
+if(a==10){  
+console.log("a is equal to 10");  
+}  
+else if(a==15){  
+console.log("a is equal to 15");  
+}  
+else if(a==20){  
+console.log("a is equal to 20");  
+}  
+else{  
+console.log("a is not equal to 10, 15 or 20");  
+}  
