@@ -109,7 +109,34 @@ if(expression|condition) {
 
 It evaluates the content only if expression is true. The signature of JavaScript if statement is given below.
 */
-let age=20;  
-if(age>18){  
-console.log("You are eligible for vote");  
+// let age=20;  
+// if(age>18){  
+// console.log("You are eligible for vote");  
+// }
+
+/*
+avaScript If...else Statement
+It evaluates the content whether condition is true of false. The syntax of JavaScript if-else statement is given below.
+
+Syntax ==>
+if(expression|condition){  
+//content to be evaluated if condition is true  
 }  
+else{  
+//content to be evaluated if condition is false  
+}
+*/
+// let mark = 48
+// if (mark > 50){
+//     console.log("You Passed the exam")
+// }else{
+//     console.log("Sorry You Fail the exam")
+// }
+
+let width = 300
+if(width >= 467){
+console.log("this is a Large Screen")
+}else{
+ console.log("this mobile Screen")
+}
+
