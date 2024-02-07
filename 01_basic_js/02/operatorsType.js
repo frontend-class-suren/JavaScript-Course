@@ -24,7 +24,7 @@ Operator	Description
 /	Division
 %	Modulus (Division Remainder)
 ++	Increment
---	Decrement
+--	Decrement1
 
 */
 
