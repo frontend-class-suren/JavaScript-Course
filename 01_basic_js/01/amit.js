@@ -1,6 +1,6 @@
 // Print “Number is even” if the number is divisible by 2.
 
-// let num = 10;
+// let num = 11;
 
 // if (num % 2 === 0) {
 //     console.log("Number is even");
