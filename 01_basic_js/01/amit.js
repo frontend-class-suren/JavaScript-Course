@@ -1,5 +1,9 @@
 // Print “Number is even” if the number is divisible by 2.
 
+<<<<<<< HEAD
+=======
+// let num = 11;
+>>>>>>> dd5043c4abb0220d49e7b9bff04401b5f69d8cee
 
 // let num = 5;
 //  if (num%2==0){

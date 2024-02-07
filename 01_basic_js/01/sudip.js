@@ -158,7 +158,7 @@
     // let d = 10;
     // let results = ((((a+b)-c)*c)/5)%2;
     // console.log(results);
-    // // **	Exponentiation (ES2016)
+    // **	Exponentiation (ES2016)
     // console.log(5**2);
 
     // //comparision operators of javascript
@@ -221,72 +221,73 @@
 
 // 01_Print “Number is even” if the number is divisible by 2.
  //02_// Else print “Number is odd” if the number returns a remainder when divided by 2.
-let num = 5;
- if (num%2==0){
-    console.log("Number is even");
- }
- else{
-    console.log("Number is odd");
- }
+// let num = 5;
+//  if (num%2==0){
+//     console.log("Number is even");
+//  }
+//  else{
+//     console.log(num+"Number is odd");
+//  }
  //03_// Print “Variable is not a number” if isNaN() returns true.
  //04_//Else print “Variable is a valid number” if isNaN() returns false.
-//  let a = 5;
-let num1 = 10;
+ let a = 5;
+let num1 = "abc";
 let num2 = 5;
 let num3 = 20;
 let operation = "add";
-let marks = 85;
+// let marks = 85;
 let side1 = 5;
-let side2 = 5;
-let side3 = 5;
+let side2 = 2;
+let side3 = 3;
 
 // Check if variable is a number
-if (isNaN(num1)) {
-    console.log("Variable is not a number");
-} else {
-    console.log("Variable is a valid number");
-}
+// if (isNaN(num1)) {
+//     console.log("Variable is not a number");
+// } else {
+//     console.log("Variable is a valid number");
+// }
 
 // Find the largest number
-if (num1 > num2 && num1 > num3) {
-    console.log("num1 is the largest");
-} else if (num2 > num3) {
-    console.log("num2 is the largest");
-} else {
-    console.log("num3 is the largest");
-}
+// if (num1 > num2 && num1 > num3) {
+//     console.log("num1 is the largest");
+// } else if (num2 > num3) {
+//     console.log("num2 is the largest");
+// } else {
+//     console.log("num3 is the largest");
+// }
 
 // Determine the type of triangle
-if (side1 === side2 && side2 === side3) {
-    console.log("Equilateral triangle.");
-} else if (side1 === side2 || side2 === side3 || side1 === side3) {
-    console.log("Isosceles triangle.");
-} else {
-    console.log("Scalene triangle.");
-}
+// if (side1 === side2 && side2 === side3) {
+//     console.log("Equilateral triangle.");
+// } else if (side1 === side2 || side2 === side3 || side1 === side3) {
+//     console.log("Isosceles triangle.");
+// } else {
+//     console.log("Scalene triangle.");
+// }
 
 // Perform arithmetic operation
-switch (operation) {
-    case "add":
-        console.log("Result:", num1 + num2);
-        break;
-    case "subtract":
-        console.log("Result:", num1 - num2);
-        break;
-    case "multiply":
-        console.log("Result:", num1 * num2);
-        break;
-    case "divide":
-        console.log("Result:", num1 / num2);
-        break;
-    case "modulus":
-        console.log("Result:", num1 % num2);
-        break;
-    default:
-        console.log("Invalid operation");
-}
+// switch (operation) {
+//     case "add":
+//         console.log("Result:", num1 + num2);
+//         break;
+//     case "subtract":
+//         console.log("Result:", num1 - num2);
+//         break;
+//     case "multiply":
+//         console.log("Result:", num1 * num2);
+//         break;
+//     case "divide":
+//         console.log("Result:", num1 / num2);
+//         break;
+//     case "modulus":
+//         console.log("Result:", num1 % num2);
+//         break;
+//     default:
+//         console.log("Invalid operation");
+// }
 
 // Find the grade
+let marks = "30"
 if (marks >= 90 && marks <= 100) {
     console.log("S grade");
 } else if (marks >= 80 && marks < 90) {

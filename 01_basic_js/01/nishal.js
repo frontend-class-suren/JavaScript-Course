@@ -1,12 +1,12 @@
-var str = "nishal branch"
+// var str = "nishal branch"
 
-var str1 = "prayas branch"
-var str2 = "himal branch"
+// var str1 = "prayas branch"
+// var str2 = "himal branch"
 
-console.log(str)
-nishal
-var str1 = "prayas branch"
- prayas
+// console.log(str)
+// nishal
+// var str1 = "prayas branch"
+//  prayas
 
 // Operators
  let a = 10;
@@ -45,7 +45,7 @@ if (age >= 18) {
 }
 // Output: You are eligible to vote.
 
-hw yetr
+// hw yetr
 // Check if a number is positive, negative, or zero
 function checkNumberType(num) {
     if (isNaN(num)) {
