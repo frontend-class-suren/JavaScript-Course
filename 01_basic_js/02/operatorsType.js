@@ -67,4 +67,107 @@ Operator	Description	Example
 
 */
 
-console.log(2==2 & 2==3)
+// console.log(2==2 & 2==3)
+
+/*
+JavaScript Assignment Operators
+Assignment operators assign values to JavaScript variables.
+
+Operator	Example	Same As
+=	x = y	x = y
++=	x += y	x = x + y
+-=	x -= y	x = x - y
+*=	x *= y	x = x * y
+/=	x /= y	x = x / y
+%=	x %= y	x = x % y
+**=	x **= y	x = x ** y
+*/
+//Example for Assignment Operators
+// var x = 1
+// x += 1
+// console.log(x)
+// console.log((2==='2')? 'Yes': 'No') 
+// 10100
+
+
+/*
+JavaScript If-else
+The JavaScript if-else statement is used to execute the code whether condition is true or false. There are three forms of if statement in JavaScript.
+
+If Statement
+If else statement
+if else if statement
+*/
+
+//1-If Statement 
+
+/*
+Syntax:====>
+if(expression|condition) {
+    here is code
+}
+
+It evaluates the content only if expression is true. The signature of JavaScript if statement is given below.
+*/
+// let age=20;  
+// if(age>18){  
+// console.log("You are eligible for vote");  
+// }
+
+/*
+avaScript If...else Statement
+It evaluates the content whether condition is true of false. The syntax of JavaScript if-else statement is given below.
+
+Syntax ==>
+if(expression|condition){  
+//content to be evaluated if condition is true  
+}  
+else{  
+//content to be evaluated if condition is false  
+}
+*/
+// let mark = 48
+// if (mark > 50){
+//     console.log("You Passed the exam")
+// }else{
+//     console.log("Sorry You Fail the exam")
+// }
+
+// let width = 300
+// if(width >= 467){
+// console.log("this is a Large Screen")
+// }else{
+//  console.log("this mobile Screen")
+// }
+
+/*
+ 
+JavaScript If...else if statement
+It evaluates the content only if expression is true from several expressions. The signature of JavaScript if else if statement is given below.
+
+if(expression1){  
+//content to be evaluated if expression1 is true  
+}  
+else if(expression2){  
+//content to be evaluated if expression2 is true  
+}  
+else if(expression3){  
+//content to be evaluated if expression3 is true  
+}  
+else{  
+//content to be evaluated if no expression is true  
+}  
+*/
+var a=20;  
+if(a==10){  
+console.log("a is equal to 10");  
+}  
+else if(a==15){  
+console.log("a is equal to 15");  
+}  
+else if(a==20){  
+console.log("a is equal to 20");  
+}  
+else{  
+console.log("a is not equal to 10, 15 or 20");  
+}  
