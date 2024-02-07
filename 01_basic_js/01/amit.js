@@ -1,12 +1,13 @@
 // Print “Number is even” if the number is divisible by 2.
 
-// let num = 10;
 
-// if (num % 2 === 0) {
+// let num = 5;
+//  if (num%2==0){
 //     console.log("Number is even");
-// } else {
+//  }
+//  else{
 //     console.log("Number is odd");
-// }
+//  }
 
 
 // Print “Variable is not a number” if isNaN() returns true.
