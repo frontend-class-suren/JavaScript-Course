@@ -1,116 +1,235 @@
-var str = "nishal branch"
+// // var str = "nishal branch"
 
-var str1 = "prayas branch"
-var str2 = "himal branch"
+// // var str1 = "prayas branch"
+// // var str2 = "himal branch"
 
-console.log(str)
-nishal
-var str1 = "prayas branch"
- prayas
+// // console.log(str)
+// // nishal
+// // var str1 = "prayas branch"
+// //  prayas
 
-// Operators
- let a = 10;
-let b = 5;
-let result = (a + b) * (a - b);
-console.log(result); // Output: 75
-// Comparison Operators:
-let x = 10;
-let y = '10';
-console.log(x == y);  // Output: true
-console.log(x === y); // Output: false
-// Bitwise Operators:
-let num1 = 5; // Binary: 0101
-let num2 = 3; // Binary: 0011
-console.log(num1 & num2); // Output: 1 (Binary: 0001)
-console.log(num1 | num2); // Output: 7 (Binary: 0111)
-// Logical Operators:
-let isAdult = true;
-let hasLicense = false;
-console.log(isAdult && hasLicense); // Output: false
-console.log(isAdult || hasLicense); // Output: true
-// String Concatenation:
-let firstName = "John";
-let lastName = "Doe";
-let fullName = firstName + " " + lastName;
-console.log(fullName); // Output: John Doe
-// String Length:
-let message = "Hello, World!";
-console.log(message.length); // Output: 13
-// Conditional Statements:
-let age = 20;
-if (age >= 18) {
-    console.log("You are eligible to vote.");
+// // // Operators
+// //  let a = 10;
+// // let b = 5;
+// // let result = (a + b) * (a - b);
+// // console.log(result); // Output: 75
+// // // Comparison Operators:
+// // let x = 10;
+// // let y = '10';
+// // console.log(x == y);  // Output: true
+// // console.log(x === y); // Output: false
+// // // Bitwise Operators:
+// // let num1 = 5; // Binary: 0101
+// // let num2 = 3; // Binary: 0011
+// // console.log(num1 & num2); // Output: 1 (Binary: 0001)
+// // console.log(num1 | num2); // Output: 7 (Binary: 0111)
+// // // Logical Operators:
+// // let isAdult = true;
+// // let hasLicense = false;
+// // console.log(isAdult && hasLicense); // Output: false
+// // console.log(isAdult || hasLicense); // Output: true
+// // // String Concatenation:
+// // let firstName = "John";
+// // let lastName = "Doe";
+// // let fullName = firstName + " " + lastName;
+// // console.log(fullName); // Output: John Doe
+// // // String Length:
+// // let message = "Hello, World!";
+// // console.log(message.length); // Output: 13
+// // // Conditional Statements:
+// // let age = 20;
+// // if (age >= 18) {
+// //     console.log("You are eligible to vote.");
+// // } else {
+// //     console.log("You are not eligible to vote yet.");
+// }
+// // Output: You are eligible to vote.
+
+// // hw yetr
+// // function checkNumber(num) {
+// //     if (isNaN(num)) {
+// //         console.log("Variable is not a number");
+// //     } else {
+// //         console.log("Variable is a valid number");
+// //         if (num % 2 === 0) {
+// //             console.log("Number is even");
+// //         } else {
+// //             console.log("Number is odd");
+// //         }
+// //     }
+// // }
+
+// // function findLargest(num1, num2, num3) {
+// //     if (num1 > num2 && num1 > num3) {
+// //         console.log("num1 is the largest");
+// //     } else if (num2 > num3) {
+// //         console.log("num2 is the largest");
+// //     } else {
+// //         console.log("num3 is the largest");
+// //     }
+// // }
+
+// // function checkTriangle(side1, side2, side3) {
+// //     if (side1 === side2 && side2 === side3) {
+// //         console.log("Equilateral triangle.");
+// //     } else if (side1 === side2 || side2 === side3 || side1 === side3) {
+// //         console.log("Isosceles triangle.");
+// //     } else {
+// //         console.log("Scalene triangle.");
+// //     }
+// // }
+
+// // function performOperation(num1, num2, operation) {
+// //     switch (operation) {
+// //         case "add":
+// //             console.log("Result of num1+num2:", num1 + num2);
+// //             break;
+// //         case "subtract":
+// //             console.log("Result of num1-num2:", num1 - num2);
+// //             break;
+// //         case "multiply":
+// //             console.log("Result of num1*num2:", num1 * num2);
+// //             break;
+// //         case "divide":
+// //             console.log("Result of num1/num2:", num1 / num2);
+// //             break;
+// //         case "modulus":
+// //             console.log("Result of num1%num2:", num1 % num2);
+// //             break;
+// //         default:
+// //             console.log("Invalid operation");
+// //     }
+// // }
+
+// // function findGrade(marks) {
+// //     if (marks >= 90 && marks <= 100) {
+// //         console.log("S grade");
+// //     } else if (marks >= 80 && marks < 90) {
+// //         console.log("A grade");
+// //     } else if (marks >= 70 && marks < 80) {
+// //         console.log("B grade");
+// //     } else if (marks >= 60 && marks < 70) {
+// //         console.log("C grade");
+// //     } else if (marks >= 50 && marks < 60) {
+// //         console.log("D grade");
+// //     } else if (marks >= 40 && marks < 50) {
+// //         console.log("E grade");
+// //     } else if (marks >= 0 && marks < 40) {
+// //         console.log("Student has failed");
+// //     } else {
+// //         console.log("Invalid marks");
+// //     }
+// // }
+
+// // // Example usage:
+// // checkNumber(5); // Variable is a valid number, Number is odd
+// // findLargest(10, 20, 15); // num2 is the largest
+// // checkTriangle(5, 5, 5); // Equilateral triangle.
+// // performOperation(10, 5, "add"); // Result of num1+num2: 15
+// // findGrade(85); // A grade
+
+let number1 = 10;
+
+// Check if number1 is even or odd
+if (typeof number1 === 'number') {
+    if (number1 % 2 === 0) {
+        console.log("Number is even");
+    } else {
+        console.log("Number is odd");
+    }
 } else {
-    console.log("You are not eligible to vote yet.");
+    console.log("Variable is not a number");
 }
-// Output: You are eligible to vote.
 
-hw yetr
-// Check if a number is positive, negative, or zero
-function checkNumberType(num) {
-    if (isNaN(num)) {
-        console.log("Variable is not a number");
+let number2 = 5;
+
+// Check if number2 is even or odd
+if (typeof number2 === 'number') {
+    if (number2 % 2 === 0) {
+        console.log("Number is even");
     } else {
-        if (num > 0) {
-            console.log("Number is positive");
-        } else if (num < 0) {
-            console.log("Number is negative");
-        } else {
-            console.log("Number is zero");
-        }
+        console.log("Number is odd");
+    }
+} else {
+    console.log("Variable is not a number");
+}
+
+let num1 = 8;
+let num2 = 6;
+
+// Check if num1 is greater than num2
+if (typeof num1 === 'number' && typeof num2 === 'number') {
+    if (num1 > num2) {
+        console.log("num1 is the largest");
+    } else if (num1 < num2) {
+        console.log("num2 is the largest");
+    } else {
+        console.log("num1 and num2 are equal");
     }
 }
 
-// Find the maximum among four numbers
-function findMaxAmongFour(num1, num2, num3, num4) {
-    if (isNaN(num1) || isNaN(num2) || isNaN(num3) || isNaN(num4)) {
-        console.log("Variable is not a number");
+let num3 = 12;
+
+// Check if num1 is greater than num2 and num3
+if (typeof num1 === 'number' && typeof num2 === 'number' && typeof num3 === 'number') {
+    if (num1 > num2 && num1 > num3) {
+        console.log("num1 is the largest");
+    } else if (num2 < num3) {
+        console.log("num2 is the largest");
     } else {
-        let max = num1;
-        if (num2 > max) {
-            max = num2;
-        }
-        if (num3 > max) {
-            max = num3;
-        }
-        if (num4 > max) {
-            max = num4;
-        }
-        console.log("The maximum number is:", max);
+        console.log("num3 is the largest");
     }
 }
 
-// Check if a year is a leap year
-function checkLeapYear(year) {
-    if (isNaN(year)) {
-        console.log("Invalid year");
-    } else {
-        if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
-            console.log(year + " is a leap year");
-        } else {
-            console.log(year + " is not a leap year");
-        }
-    }
+let side1 = 5;
+let side2 = 5;
+let side3 = 5;
+
+// Check type of triangle
+if (side1 === side2 && side2 === side3) {
+    console.log("Equilateral triangle.");
+} else if (side1 === side2 || side2 === side3) {
+    console.log("Isosceles triangle.");
+} else {
+    console.log("Scalene triangle.");
 }
 
-// Calculate the area of different shapes
-function calculateArea(shape, ...params) {
-    if (isNaN(params.filter(param => isNaN(param)).length)) {
-        switch (shape.toLowerCase()) {
-            case "rectangle":
-                console.log("Area of rectangle:", params[0] * params[1]);
-                break;
-            case "circle":
-                console.log("Area of circle:", Math.PI * Math.pow(params[0], 2));
-                break;
-            case "triangle":
-                const s = (params[0] + params[1] + params[2]) / 2;
-                console.log("Area of triangle:", Math.sqrt(s * (s - params[0]) * (s - params[1]) * (s - params[2])));
-                break;
-            default:
-                console.log("Invalid shape");
-        }
+let operation = "multiply";
+
+// Perform arithmetic operation
+if (operation === "add") {
+    console.log("Result of addition: " + (num1 + num2));
+} else if (operation === "subtract") {
+    console.log("Result of subtraction: " + (num1 - num2));
+} else if (operation === "multiply") {
+    console.log("Result of multiplication: " + (num1 * num2));
+} else if (operation === "divide") {
+    console.log("Result of division: " + (num1 / num2));
+} else if (operation === "modulus") {
+    console.log("Result of modulus: " + (num1 % num2));
+} else {
+    console.log("Invalid operation");
+}
+
+let marks = 75;
+
+// Check grade based on marks
+if (typeof marks === 'number') {
+    if (marks >= 90 && marks <= 100) {
+        console.log("S grade");
+    } else if (marks >= 80 && marks < 90) {
+        console.log("A grade");
+    } else if (marks >= 70 && marks < 80) {
+        console.log("B grade");
+    } else if (marks >= 60 && marks < 70) {
+        console.log("C grade");
+    } else if (marks >= 50 && marks < 60) {
+        console.log("D grade");
+    } else if (marks >= 40 && marks < 50) {
+        console.log("E grade");
+    } else if (marks >= 0 && marks < 40) {
+        console.log("Student has failed");
     } else {
-        console.log("Invalid input");
+        console.log("Invalid marks");
     }
 }
