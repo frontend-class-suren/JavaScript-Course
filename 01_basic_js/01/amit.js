@@ -2,11 +2,13 @@
 
 // let num = 10;
 
-// if (num % 2 === 0) {
+// let num = 5;
+//  if (num%2==0){
 //     console.log("Number is even");
-// } else {
+//  }
+//  else{
 //     console.log("Number is odd");
-// }
+//  }
 
 
 // Print “Variable is not a number” if isNaN() returns true.
@@ -167,6 +169,39 @@ findGrade(studentMarks);
 
 */
 
+// for loop
+
+// increment
+
+// for(a=1; a<5; a++){
+//     console.log(a)
+// }
+
+// decrement
+
+// for(i=10;i>=1; i--){
+//     console.log(i)
+// }
+
+// to count even number 
+
+// for (let i = 2; i <= 50; i += 2) {
+//     console.log(i);
+//   }
+
+// to count odd number 
+
+for(let i=1; i<=50; i+=2){
+    console.log(i);
+}
+
+// for name
+
+//  for(a=1; a<8; a++){
+
+//      console.log('amit')
+//  }
+  
 
 
 
