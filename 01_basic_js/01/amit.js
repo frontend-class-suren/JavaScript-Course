@@ -191,11 +191,11 @@ findGrade(studentMarks);
 
 // to count odd number 
 
-for(let i=1; i<=50; i+=2){
-    console.log(i);
-}
+// for(let i=1; i<=50; i+=2){
+//     console.log(i);
+// }
 
-// for name
+// for string?
 
 //  for(a=1; a<8; a++){
 
