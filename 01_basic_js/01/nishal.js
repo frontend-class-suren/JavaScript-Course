@@ -250,3 +250,8 @@ if (typeof marks === 'number') {
         console.log("Invalid marks");
     }
 }
+js loops example
+console.log("loop:");
+for (let i = 1; i <= 5; i++) {
+    console.log("Iteration", i);
+}
