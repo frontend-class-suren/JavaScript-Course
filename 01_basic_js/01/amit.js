@@ -205,13 +205,24 @@ findGrade(studentMarks);
 
 // do-while
 
-let i = 0;
-do {
-  i += 1;
-  console.log(i);
-} while (i < 5);
+// let i = 0;
+// do {
+//   i += 1;
+//   console.log(i);
+// } while (i < 5);
 
 
+// homework
+
+let number=2;
+
+if (number > 0) {
+    console.log(number + " is a positive number.");
+} else if (number < 0) {
+    console.log(number + " is a negative number.");
+} else {
+    console.log(number + " is zero.");
+}
 
 
 
