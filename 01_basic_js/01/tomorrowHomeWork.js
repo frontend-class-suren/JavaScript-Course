@@ -30,3 +30,8 @@ Print “E grade” if marks is between 40 and 50.
 Print “Student has failed” if marks is between 0 and 40.
 Else print “Invalid marks”.
 */
+console.log("CP-Developer")
+console.log("CP-Developer")
+console.log("CP-Developer")
+console.log("CP-Developer")
+console.log("CP-Developer")
