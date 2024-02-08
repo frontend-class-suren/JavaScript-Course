@@ -47,7 +47,11 @@ do{
 // console.log(i + "<br/>");  
 // i++;  
 // }while (i<25); 
-
+let i = 0;
+do {
+  i += 1;
+  console.log(i);
+} while (i <= 5);
 /*
 while statement
 A while statement executes its statements as long as a 
@@ -60,14 +64,14 @@ while (condition)
 The condition test occurs before statement in the loop is executed. If the condition returns true, statement is executed and the condition is tested again. 
 If the condition returns false, execution stops, and control is passed to the statement following while.
 */
-let n = 0;
-let x = 0;
-while (n < 3) {
-  n++; //n=0+1 =>1
-  x += n; // x= x+n
-// for(i=0;i<3; i++)
-  // x= 0+1 =>1 ,n=1
-  //x = 1+ 2 => 3 ,n=2
-  // x= 3+ 3 =>6 ,n=3
-  console.log(x)
-}
+// let n = 0;
+// let x = 0;
+// while (n < 3) {
+//   n++; //n=0+1 =>1
+//   x += n; // x= x+n
+// // for(i=0;i<3; i++)
+//   // x= 0+1 =>1 ,n=1
+//   //x = 1+ 2 => 3 ,n=2
+//   // x= 3+ 3 =>6 ,n=3
+//   console.log(x)
+// }
