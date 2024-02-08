@@ -153,20 +153,17 @@ if (typeof number1 === 'number') {
     console.log("Variable is not a number");
 }
 
-<<<<<<< HEAD
 let number2 = 5;
 
 // Check if number2 is even or odd
 if (typeof number2 === 'number') {
     if (number2 % 2 === 0) {
         console.log("Number is even");
-=======
 // hw yetr
 // Check if a number is positive, negative, or zero
 function checkNumberType(num) {
     if (isNaN(num)) {
         console.log("Variable is not a number");
->>>>>>> 439b0c43b6bce820d8f38f5b1d989d8ce1a34c6a
     } else {
         console.log("Number is odd");
     }
