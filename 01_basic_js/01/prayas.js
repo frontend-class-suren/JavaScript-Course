@@ -23,7 +23,7 @@
 
 // let secondNumber = 4;
 
-// // Check if secondNumber is even or odd
+// Check if secondNumber is even or odd
 // if (typeof secondNumber === 'number') {
 //     if (secondNumber % 2 === 0) {
 //         console.log("Number is even");
@@ -34,32 +34,32 @@
 //     console.log("Variable is not a number");
 // }
 
-// let numA = 9;
-// let numB = 12;
+let numA = 9;
+let numB = 12;
 
-// // Check if numA is greater than numB
-// if (typeof numA === 'number' && typeof numB === 'number') {
-//     if (numA > numB) {
-//         console.log("numA is the largest");
-//     } else if (numA < numB) {
-//         console.log("numB is the largest");
-//     } else {
-//         console.log("numA and numB are equal");
-//     }
-// }
+// Check if numA is greater than numB
+if (typeof numA === 'number' && typeof numB === 'number') {
+    if (numA > numB) {
+        console.log("numA is the largest");
+    } else if (numA < numB) {
+        console.log("numB is the largest");
+    } else {
+        console.log("numA and numB are equal");
+    }
+}
 
-// let sideLength1 = 3;
-// let sideLength2 = 4;
-// let sideLength3 = 5;
+let sideLength1 = 3;
+let sideLength2 = 4;
+let sideLength3 = 5;
 
-// // Check type of triangle
-// if (sideLength1 === sideLength2 && sideLength2 === sideLength3) {
-//     console.log("Equilateral triangle.");
-// } else if (sideLength1 === sideLength2 || sideLength2 === sideLength3) {
-//     console.log("Isosceles triangle.");
-// } else {
-//     console.log("Scalene triangle.");
-// }
+// Check type of triangle
+if (sideLength1 === sideLength2 && sideLength2 === sideLength3) {
+    console.log("Equilateral triangle.");
+} else if (sideLength1 === sideLength2 || sideLength2 === sideLength3 || sideLength1==sideLength3) {
+    console.log("Isosceles triangle.");
+} else {
+    console.log("Scalene triangle.");
+}
 
 
 // let studentMarks = 85;
