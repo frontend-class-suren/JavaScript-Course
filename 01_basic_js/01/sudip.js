@@ -377,70 +377,90 @@
 //     // console.log(a==b | a==s);//like addition
 
 
-//     // console.log(true && false);
+// //     // console.log(true && false);
 
-//     // // Logical OR (||)
-//     // console.log(true || false); 
+// //     // // Logical OR (||)
+// //     // console.log(true || false); 
 
-//     // // Logical NOT (!)
-//     // console.log(!true); 
+// //     // // Logical NOT (!)
+// //     // console.log(!true); 
 
-//     // // 03 // String Concatenation
-//     // let firstName = "sudip";
-//     // let lastName = "rayamajhi";
-//     // let fullName = firstName + " " + lastName;
-//     // console.log(fullName); 
+// //     // // 03 // String Concatenation
+// //     // let firstName = "sudip";
+// //     // let lastName = "rayamajhi";
+// //     // let fullName = firstName + " " + lastName;
+// //     // console.log(fullName); 
 
-//     // // 04 // String Length
-//     // let message = "Hello, World!";
-//     // console.log(message.length); 
+// //     // // 04 // String Length
+// //     // let message = "Hello, World!";
+// //     // console.log(message.length); 
 
-//     // // 05 // Conditional Statements
-//     // let age = 18;
+// //     // // 05 // Conditional Statements
+// //     // let age = 18;
 
-    // if (age >= 18) {
-    //     console.log("You are eligible to vote.");
-    // } else {
-    //     console.log("You are not eligible to vote yet.");
-    // }
+//     // if (age >= 18) {
+//     //     console.log("You are eligible to vote.");
+//     // } else {
+//     //     console.log("You are not eligible to vote yet.");
+//     // }
 
-// 01_Print “Number is even” if the number is divisible by 2.
- //02_// Else print “Number is odd” if the number returns a remainder when divided by 2.
-let num = 5;
- if (num%2==0){
-    console.log("Number is even");
- }
- else{
-    console.log("Number is odd");
- }
- //03_// Print “Variable is not a number” if isNaN() returns true.
- //04_//Else print “Variable is a valid number” if isNaN() returns false.
-//  let a = 5;
-let num1 = 10;
-let num2 = 5;
-let num3 = 20;
-let operation = "add";
-let marks = 85;
-let side1 = 5;
-let side2 = 5;
-let side3 = 5;
+// // 01_Print “Number is even” if the number is divisible by 2.
+//  //02_// Else print “Number is odd” if the number returns a remainder when divided by 2.
+// let num = 5;
+//  if (num%2==0){
+//     console.log("Number is even");
+//  }
+//  else{
+//     console.log("Number is odd");
+//  }
+//  //03_// Print “Variable is not a number” if isNaN() returns true.
+//  //04_//Else print “Variable is a valid number” if isNaN() returns false.
+// //  let a = 5;
+// let num1 = 10;
+// let num2 = 5;
+// let num3 = 20;
+// let operation = "add";
+// let marks = 85;
+// let side1 = 5;
+// let side2 = 5;
+// let side3 = 5;
 
-// Check if variable is a number
-if (isNaN(num1)) {
-    console.log("Variable is not a number");
-} else {
-    console.log("Variable is a valid number");
-}
+// // Check if variable is a number
+// if (isNaN(num1)) {
+//     console.log("Variable is not a number");
+// } else {
+//     console.log("Variable is a valid number");
+// }
 
-// Find the largest number
-if (num1 > num2 && num1 > num3) {
-    console.log("num1 is the largest");
-} else if (num2 > num3) {
-    console.log("num2 is the largest");
-} else {
-    console.log("num3 is the largest");
-}
+// // Find the largest number
+// if (num1 > num2 && num1 > num3) {
+//     console.log("num1 is the largest");
+// } else if (num2 > num3) {
+//     console.log("num2 is the largest");
+// } else {
+//     console.log("num3 is the largest");
+// }
 
+// // switch (operation) {
+// //     case "add":
+// //         console.log("Result:", num1 + num2);
+// //         break;
+// //     case "subtract":
+// //         console.log("Result:", num1 - num2);
+// //         break;
+// //     case "multiply":
+// //         console.log("Result:", num1 * num2);
+// //         break;
+// //     case "divide":
+// //         console.log("Result:", num1 / num2);
+// //         break;
+// //     case "modulus":
+// //         console.log("Result:", num1 % num2);
+// //         break;
+// //     default:
+// //         console.log("Invalid operation");
+// // }
+// // Perform arithmetic operation
 // switch (operation) {
 //     case "add":
 //         console.log("Result:", num1 + num2);
@@ -460,29 +480,58 @@ if (num1 > num2 && num1 > num3) {
 //     default:
 //         console.log("Invalid operation");
 // }
-// Perform arithmetic operation
-switch (operation) {
-    case "add":
-        console.log("Result:", num1 + num2);
-        break;
-    case "subtract":
-        console.log("Result:", num1 - num2);
-        break;
-    case "multiply":
-        console.log("Result:", num1 * num2);
-        break;
-    case "divide":
-        console.log("Result:", num1 / num2);
-        break;
-    case "modulus":
-        console.log("Result:", num1 % num2);
-        break;
-    default:
-        console.log("Invalid operation");
-}
 
 
 
+// // if (marks >= 90 && marks <= 100) {
+// //     console.log("S grade");
+// // } else if (marks >= 80 && marks < 90) {
+// //     console.log("A grade");
+// // } else if (marks >= 70 && marks < 80) {
+// //     console.log("B grade");
+// // } else if (marks >= 60 && marks < 70) {
+// //     console.log("C grade");
+// // } else if (marks >= 50 && marks < 60) {
+// //     console.log("D grade");
+// // } else if (marks >= 40 && marks < 50) {
+// //     console.log("E grade");
+// // } else if (marks >= 0 && marks < 40) {
+// //     console.log("Student has failed");
+// // } else {
+// //     console.log("Invalid marks");
+// // }
+
+// // Determine the type of triangle
+// if (side1 === side2 && side2 === side3) {
+//     console.log("Equilateral triangle.");
+// } else if (side1 === side2 || side2 === side3 || side1 === side3) {
+//     console.log("Isosceles triangle.");
+// } else {
+//     console.log("Scalene triangle.");
+// }
+
+// // Perform arithmetic operation
+// switch (operation) {
+//     case "add":
+//         console.log("Result:", num1 + num2);
+//         break;
+//     case "subtract":
+//         console.log("Result:", num1 - num2);
+//         break;
+//     case "multiply":
+//         console.log("Result:", num1 * num2);
+//         break;
+//     case "divide":
+//         console.log("Result:", num1 / num2);
+//         break;
+//     case "modulus":
+//         console.log("Result:", num1 % num2);
+//         break;
+//     default:
+//         console.log("Invalid operation");
+// }
+
+// // Find the grade
 // if (marks >= 90 && marks <= 100) {
 //     console.log("S grade");
 // } else if (marks >= 80 && marks < 90) {
@@ -501,59 +550,157 @@ switch (operation) {
 //     console.log("Invalid marks");
 // }
 
-// Determine the type of triangle
-if (side1 === side2 && side2 === side3) {
-    console.log("Equilateral triangle.");
-} else if (side1 === side2 || side2 === side3 || side1 === side3) {
-    console.log("Isosceles triangle.");
-} else {
-    console.log("Scalene triangle.");
-}
+// //for loop
+// for(i=1; i<=100;i++){
+//     console.log("I love you!");
+// }
 
-// Perform arithmetic operation
-switch (operation) {
-    case "add":
-        console.log("Result:", num1 + num2);
-        break;
-    case "subtract":
-        console.log("Result:", num1 - num2);
-        break;
-    case "multiply":
-        console.log("Result:", num1 * num2);
-        break;
-    case "divide":
-        console.log("Result:", num1 / num2);
-        break;
-    case "modulus":
-        console.log("Result:", num1 % num2);
-        break;
-    default:
-        console.log("Invalid operation");
-}
+/* home work  for  2/9/2024 */
+// 01_Write a program that determines whether a given number is positive or negative.
 
-// Find the grade
-if (marks >= 90 && marks <= 100) {
-    console.log("S grade");
-} else if (marks >= 80 && marks < 90) {
-    console.log("A grade");
-} else if (marks >= 70 && marks < 80) {
-    console.log("B grade");
-} else if (marks >= 60 && marks < 70) {
-    console.log("C grade");
-} else if (marks >= 50 && marks < 60) {
-    console.log("D grade");
-} else if (marks >= 40 && marks < 50) {
-    console.log("E grade");
-} else if (marks >= 0 && marks < 40) {
-    console.log("Student has failed");
-} else {
-    console.log("Invalid marks");
-}
+// let a=-5;
+// if(a>0){
+//     console.log(a + "is positive number");
+// }
+// else if(a<0){
+//     console.log(a + "is negative number");
+// }
+// else{
+//     console.log(a+"is nither positive nor negative number")
+// }
 
-//for loop
-for(i=1; i<=100;i++){
-    console.log("I love you!");
-}
+
+// 02_Write a program that checks if a number is even or odd.
+// let b = 5;
+// if(b%2==0){
+//     console.log(b + "is even")
+// }
+// else{
+//     console.log(b+ "is odd")
+// }
+
+
+// 03_Write a program to determine the greater of two numbers.
+// let a =15;
+// let b = 10;
+// if(a>b){
+//     console.log(a +"is greater than"+b)
+// }
+// else{
+//     console.log(b +"is greater than"+a)
+// }
+
+
+// 04_Write a program that transforms a numerical grade to a letter grade (e.g grade 10 should display “A”)
+//I dont understant this question
+
+
+//05_ Write a program that calculates the ticket price based on age with the following conditions: age below 12 pay a ticket price of 5, age below 18 pay a ticket price of 10, age below 60 pay a ticket price of 20, age over 60 play a ticket price of 15.
+// let age = 11;
+// if(age<12){
+//     console.log("The ticket price is 5")
+// }
+// else if(age<18 & age>=12){
+//     console.log("Ticket price is 10")
+// }
+// else if(age<60 & age>=18){
+//     console.log("Ticket price is 20");
+// }
+// else{
+//     console.log("Ticket price is 15");
+// }
+
+
+// 06_Write a program that determines if a year is a leap year.
+// let numberOfDays = 366;
+// if(numberOfDays ==366){
+//     console.log("This is leap year")
+// }
+// else{
+//     console.log("This is not leap year")
+// }
+
+
+//07_Write a program that calculates a discount based on the purchase amount.Prices equal or over 100 discount have a discount of 20. Prices equal or over 50 have a discount of 10. Otherwise discount is 0
+// let price = 200;
+// if(price>=100){
+//     console.log("The discount price is 20")
+// }
+// else if(price>=50 & price<100){
+//     console.log("This discount price is 10")
+// }
+// else{
+//     console.log("The discount price is 0")
+// }
+
+
+//08_Write a program that greets the user based on the time of day. Display good morning, good afternnon or good evening based on the time of day when you run the code.
+// let currentHour = new Date().getHours();
+
+// if (currentHour >= 5 && currentHour < 12) {
+//     console.log("Good morning!");
+// } else if (currentHour >= 12 && currentHour < 17) {
+//     console.log("Good afternoon!");
+// } else {
+//     console.log("Good evening!");
+// }
+
+//09_Write a program that calculates the Body Mass Index (BMI) and categorizes it. The formula for BMI is: weight / (height * height).
+// let weight = 60;
+// let height = 5.3;
+
+// let BMI = weight/(height**2)
+// console.log(BMI);
+
+
+
+//10_Write a simple number guessing game. Provide a secret number and a guess. Based on those numbers give players clues if their guess is higher, lower or correct.
+// let actualNumber = 10;
+// let guessNumber = 9;
+// if(actualNumber<guessNumber){
+//     console.log("higher")
+// }
+// else if(actualNumber>guessNumber){
+//     console.log("lower")
+// }
+// else{
+//     console.log("correct")
+// }
+
+
+
+// for loops
+// #1 — Print the numbers from 0 to 15
+// for(a=0; a<=15; a++){
+//     console.log(a);
+// }
+
+
+
+// #2 — Print the numbers from 12 to 24
+// for(a=12; a<=24; a++){
+//     console.log(a);
+// }
+
+// #3 — Print the ODD numbers from 7 to 31
+// for(a=7; a<=31; a=a+2){
+//     console.log(a);
+// }
+
+// #4 — Print the EVEN numbers from 10 to -20
+// for(a=10; a>= -20; a=a-2){
+//     console.log(a);
+// }
+
+
+// #5 — Iterate through all numbers from 1 to 45. Print the following:
+//     For multiples of 3 print “Fizz”
+//     For multiples of 5 print “Buzz”
+//     For multiples of 3 and 5 print “FizzBuzz”
+
+
+
+
 
 
 
