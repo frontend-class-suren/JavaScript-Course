@@ -214,15 +214,132 @@ findGrade(studentMarks);
 
 // homework
 
-let number=2;
+// #1 — Print the numbers from 0 to 15
 
-if (number > 0) {
-    console.log(number + " is a positive number.");
-} else if (number < 0) {
-    console.log(number + " is a negative number.");
-} else {
-    console.log(number + " is zero.");
-}
+// for 
+
+// for(i=0; i<=15; i++){
+//     console.log(i);
+// }
+
+// do while 
+
+// let i=0;
+// do {
+//     i+=1;
+//     console.log(i);
+// }
+// while(i<15);
+
+
+// #2 — Print the numbers from 12 to 24
+
+
+// for(i=12; i<=24; i++){
+//     console.log(i);
+// }
+
+// #3 — Print the ODD numbers from 7 to 31
+
+// for(i=7;i<=31;i+=2) {
+//     console.log(i);
+// }
+
+
+// #4 — Print the EVEN numbers from 10 to -20
+
+// for(i=10; i>=-20; i-=2){
+//     console.log(i)
+// }
+
+// #5 — Iterate through all numbers from 1 to 45. Print the following:
+//     For multiples of 3 print “Fizz”
+//     For multiples of 5 print “Buzz”
+//     For multiples of 3 and 5 print “FizzBuzz”
+
+// first one didnot work 
+
+// for (let i = 1; i <= 45; i++) {
+//     if (i % 3 === 0) {
+//         console.log("Fizz");
+//     } else if (i % 5 === 0) {
+//         console.log("Buzz");                                    
+//     } else if (i % 3 === 0 && i % 5 === 0) {
+//         console.log("FizzBuzz");
+//     } else {
+//         console.log(i);
+//     }
+// }
+
+// for (let i = 1; i <= 45; i++) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//         console.log("FizzBuzz");
+//     } else if (i % 3 === 0) {
+//         console.log("Fizz");
+//     } else if (i % 5 === 0) {
+//         console.log("Buzz");
+//     } else {
+//         console.log(i);
+//     }
+// }
+
+
+// Calculate the sum of all the numbers in the following array
+//     var numbersArray = [1,13,22,123,49]
+
+// var numbersArray = [1, 13, 22, 123, 49];
+// var sum = 0;
+// for (var i = 0; i < numbersArray.length; i++) {
+//     sum += numbersArray[i];
+// }
+// console.log("The sum is:", sum);
+
+// Print the numbers 0 - 20, one number per line.
+// for (let i = 0; i <= 20; i++) {
+//     console.log(i);
+// }
+
+
+// Print only the ODD values from 3 - 29, one number per line.
+// for (let i = 3; i <= 29; i += 2) {
+//     console.log(i);
+// }
+
+
+
+// Print the EVEN numbers 12 down to -14 in descending order, one number per line.
+
+// let number = 12;
+
+// while (number >= -14) {
+//     if (number % 2 === 0) {
+//         console.log(number);
+//     }
+//     number -= 2;
+// }
+
+// Print the numbers 50 down to 20 in descending order, but only if the numbers are multiples of 3.
+
+// for (let i = 50; i >= 20; i--) {
+//     if (i % 3 === 0) {
+//         console.log(i);
+//     }
+// }
+
+
+
+// In the loop, determine if each number is even or odd, then put that number into evens or odds, as appropriate.
+
+
+// for (let i = 1; i <= 20; i++) {
+//     if (i % 2 === 0) {
+//         console.log("Even Numbers:", i);
+//     } else {
+//         console.log("Odd Numbers:", i);
+//     }
+// }
+
+
 
 
 
