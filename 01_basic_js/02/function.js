@@ -80,8 +80,11 @@ types of Array methods
 
 // splice() method: adds or removes elements from an array.
 
-const fruits = ["apple", "banana", "cherry"];
-fruits.splice(1, 1);
-console.table(fruits); 
+// const fruits = ["apple", "banana", "cherry"];
+// fruits.splice(1, 1);
+// console.table(fruits);
+
+
+
 
 
