@@ -339,6 +339,49 @@ findGrade(studentMarks);
 //     }
 // }
 
+// ********************************functions***************************************
+
+// const square = function (number) {
+//     return number * number;
+//   };
+  
+//   console.log(square(4));
+
+
+// ****************************factorial function *************************
+
+// function factorial(n) {
+//     if (n === 0 || n === 1) {
+//       return 1;
+//     } else {
+//       return n * factorial(n - 1);
+//     }
+//   }
+  
+//   console.log(factorial(5));
+  
+
+//  *************************score*****************
+
+let ids = "acer";
+
+
+function getScore() {
+    let maths = 90;
+    let science = 87;
+    let social = 84;
+    let english = 95;
+    let computer = 93;  
+  
+    function add() {
+      return `${ids} scored total ${maths + science + social + english + computer} out of 500 in test`;
+    }
+  
+    return add();
+  }
+  
+  console.log(getScore());
+
 
 
 
