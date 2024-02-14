@@ -135,3 +135,46 @@
 // studentRecord("Himal","butwal-10, Milanchok ",9847111261," abcchaubisey.com")
 
 
+// const fruits = [];
+
+// fruits.push("kera", "syauu", "piich", "belauti", "duitodallo");
+
+// console.log(fruits.length); 
+
+
+// let array1 = [0, 1, 'zero', 'one', 1, 'zero'];
+
+// console.log(array1.toString());
+
+// const elements = ['Amrita', 'Aakanchya', 'Aayushi'];
+
+// console.log(elements.join());
+// console.log(elements.join('-'));
+
+
+// const plants = ['cucumber', 'ladyfinger', 'cauliflower', 'onion', 'tomato', 'potato'];
+// console.log(plants.pop());
+// console.log(plants);
+//  console.table(plants);
+
+// const animals = ['f1', 'intra', 'exile'];
+// const count = animals.push('fingersoft');
+// console.log(count);
+// console.log(animals);
+// console.table(animals);
+// animals.push('chicken', 'animal', 'leo')
+// console.table(animals);
+
+// const easydoeseat = [6, 7, 4];
+// console.log(easydoeseat.unshift(4, 5));
+// console.log(easydoeseat)
+// console.table(easydoeseat)
+
+const numbers = ['two', 'four', 'six', 'eight'];
+
+numbers.splice(1, 0, 'six');
+
+console.log(numbers);
+
+
+
