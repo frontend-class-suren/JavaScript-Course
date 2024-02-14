@@ -416,3 +416,47 @@
 //         console.log(i);
 //     }
 // }
+// hw for 2/13/2024
+const cars = ["Toyota", "Honda", "Ford"];
+
+console.log(cars.length);
+console.log(cars.toString());
+console.log(cars.at(1));
+console.log(cars.join(", "));
+
+const removedCar = cars.pop();
+console.log(removedCar);
+console.log(cars);
+
+cars.push("BMW");
+console.log(cars);
+
+const shiftedCar = cars.shift();
+console.log(shiftedCar);
+console.log(cars);
+
+cars.unshift("Tesla");
+console.log(cars);
+
+delete cars[1];
+console.log(cars);
+
+const cars1 = ["Toyota", "Honda"];
+const cars2 = ["Ford", "BMW"];
+const allCars = cars1.concat(cars2);
+console.log(allCars);
+
+cars.copyWithin(2, 0, 2);
+console.log(cars);
+
+const nestedArray = [1, 2, [3, 4], 5];
+const flatArray = nestedArray.flat();
+console.log(flatArray);
+
+const removedItems = cars.splice(1, 2);
+console.log(removedItems);
+console.log(cars);
+
+const slicedCars = cars.slice(1, 3);
+console.log(slicedCars);
+console.log(cars);
