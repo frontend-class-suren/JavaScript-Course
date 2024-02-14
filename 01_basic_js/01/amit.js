@@ -391,7 +391,9 @@ findGrade(studentMarks);
 //***********length 
 
 // const fruits = [];
+
 // fruits.push("banana", "apple", "peach", "guava", "cherry");
+
 // console.log(fruits.length); 
 
 
@@ -425,18 +427,26 @@ findGrade(studentMarks);
 // console.log(plants);
 
 
+
 //***************push */
 
 // const animals = ['cow', 'dog', 'cat'];
 
 // const count = animals.push('cow');
+
 // console.log(count);
+
 // // Expected output: 4
+
 // console.log(animals);
+
 // // Expected output: Array ["pigs", "goats", "sheep", "cows"]
 
 // animals.push('chicken', 'elephant', 'lion');
+
 // console.log(animals);
+
+
 
 // *********************unshift********************
 
@@ -451,10 +461,15 @@ findGrade(studentMarks);
 // ************splice****************
 
 // const numbers = ['one', 'three', 'four', 'five'];
+
 // numbers.splice(1, 0, 'two');
+
 // console.log(numbers);
+
 // numbers.splice(5, 0, 'six');
+
 // console.log(numbers);
+
 
 
 // ********************slice 
@@ -472,6 +487,22 @@ findGrade(studentMarks);
 // console.log(animals.slice(2, -1));
 
 // console.log(animals.slice());
+
+
+
+//***************reversed */
+
+
+// const items = [1, 2, 3];
+
+// console.log(items); 
+
+// const reversedItems = items.toReversed();
+
+// console.log(reversedItems); 
+
+// console.log(items); 
+
 
 
 
