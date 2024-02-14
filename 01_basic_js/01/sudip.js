@@ -699,6 +699,46 @@
 //     For multiples of 3 and 5 print “FizzBuzz”
 
 
+//hw of feb 14
+// Create an array
+let fruits = ["Apple", "Banana", "Orange", "Mango"];
+
+// Array length
+console.log("Length of fruits array:", fruits.length);
+
+// Array toString()
+let fruitsString = fruits.toString();
+console.log("fruits array as a string:", fruitsString);
+
+// Array at()
+console.log("Element at index 2:", fruits.at(2));
+
+// Array join()
+let joinedFruits = fruits.join(", ");
+console.log("Joined fruits array:", joinedFruits);
+
+// Array pop()
+let poppedFruit = fruits.pop();
+console.log("Popped fruit:", poppedFruit);
+console.log("Updated fruits array after pop:", fruits);
+
+// Array push()
+fruits.push("Grapes");
+console.log("Updated fruits array after push:", fruits);
+
+// Array shift()
+let shiftedFruit = fruits.shift();
+console.log("Shifted fruit:", shiftedFruit);
+console.log("Updated fruits array after shift:", fruits);
+
+// Array unshift()
+fruits.unshift("Pineapple");
+console.log("Updated fruits array after unshift:", fruits);
+
+// Array slice()
+let slicedFruits = fruits.slice(1, 3);
+console.log("Sliced fruits array:", slicedFruits);
+
 
 
 
