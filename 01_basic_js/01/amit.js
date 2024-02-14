@@ -214,20 +214,294 @@ findGrade(studentMarks);
 
 // homework
 
-let number=2;
+// #1 — Print the numbers from 0 to 15
 
-if (number > 0) {
-    console.log(number + " is a positive number.");
-} else if (number < 0) {
-    console.log(number + " is a negative number.");
-} else {
-    console.log(number + " is zero.");
-}
+// for 
+
+// for(i=0; i<=15; i++){
+//     console.log(i);
+// }
+
+// do while 
+
+// let i=0;
+// do {
+//     i+=1;
+//     console.log(i);
+// }
+// while(i<15);
+
+
+// #2 — Print the numbers from 12 to 24
+
+
+// for(i=12; i<=24; i++){
+//     console.log(i);
+// }
+
+// #3 — Print the ODD numbers from 7 to 31
+
+// for(i=7;i<=31;i+=2) {
+//     console.log(i);
+// }
+
+
+// #4 — Print the EVEN numbers from 10 to -20
+
+// for(i=10; i>=-20; i-=2){
+//     console.log(i)
+// }
+
+// #5 — Iterate through all numbers from 1 to 45. Print the following:
+//     For multiples of 3 print “Fizz”
+//     For multiples of 5 print “Buzz”
+//     For multiples of 3 and 5 print “FizzBuzz”
+
+// first one didnot work 
+
+// for (let i = 1; i <= 45; i++) {
+//     if (i % 3 === 0) {
+//         console.log("Fizz");
+//     } else if (i % 5 === 0) {
+//         console.log("Buzz");                                    
+//     } else if (i % 3 === 0 && i % 5 === 0) {
+//         console.log("FizzBuzz");
+//     } else {
+//         console.log(i);
+//     }
+// }
+
+// for (let i = 1; i <= 45; i++) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//         console.log("FizzBuzz");
+//     } else if (i % 3 === 0) {
+//         console.log("Fizz");
+//     } else if (i % 5 === 0) {
+//         console.log("Buzz");
+//     } else {
+//         console.log(i);
+//     }
+// }
+
+
+// Calculate the sum of all the numbers in the following array
+//     var numbersArray = [1,13,22,123,49]
+
+// var numbersArray = [1, 13, 22, 123, 49];
+// var sum = 0;
+// for (var i = 0; i < numbersArray.length; i++) {
+//     sum += numbersArray[i];
+// }
+// console.log("The sum is:", sum);
+
+// Print the numbers 0 - 20, one number per line.
+// for (let i = 0; i <= 20; i++) {
+//     console.log(i);
+// }
+
+
+// Print only the ODD values from 3 - 29, one number per line.
+// for (let i = 3; i <= 29; i += 2) {
+//     console.log(i);
+// }
+
+
+
+// Print the EVEN numbers 12 down to -14 in descending order, one number per line.
+
+// let number = 12;
+
+// while (number >= -14) {
+//     if (number % 2 === 0) {
+//         console.log(number);
+//     }
+//     number -= 2;
+// }
+
+// Print the numbers 50 down to 20 in descending order, but only if the numbers are multiples of 3.
+
+// for (let i = 50; i >= 20; i--) {
+//     if (i % 3 === 0) {
+//         console.log(i);
+//     }
+// }
+
+
+
+// In the loop, determine if each number is even or odd, then put that number into evens or odds, as appropriate.
+
+
+// for (let i = 1; i <= 20; i++) {
+//     if (i % 2 === 0) {
+//         console.log("Even Numbers:", i);
+//     } else {
+//         console.log("Odd Numbers:", i);
+//     }
+// }
+
+// ********************************functions***************************************
+
+// const square = function (number) {
+//     return number * number;
+//   };
+  
+//   console.log(square(4));
+
+
+// ****************************factorial function *************************
+
+// function factorial(n) {
+//     if (n === 0 || n === 1) {
+//       return 1;
+//     } else {
+//       return n * factorial(n - 1);
+//     }
+//   }
+  
+//   console.log(factorial(5));
+  
+
+//  *************************score*****************
+
+// let ids = "acer";
+
+
+// function getScore() {
+//     let maths = 90;
+//     let science = 87;
+//     let social = 84;
+//     let english = 95;
+//     let computer = 93;  
+  
+//     function add() {
+//       return `${ids} scored total ${maths + science + social + english + computer} out of 500 in test`;
+//     }
+  
+//     return add();
+//   }
+  
+//   console.log(getScore());
 
 
 
 
+// *********************************Arrays*********************************
 
+
+//***********length 
+
+// const fruits = [];
+
+// fruits.push("banana", "apple", "peach", "guava", "cherry");
+
+// console.log(fruits.length); 
+
+
+//*************** to string 
+
+// let array1 = [1, 2, 'a', '1a', 5, '9a'];
+
+// console.log(array1.toString());
+
+// *******************join **********************
+
+// const elements = ['Amit', 'Aakash', 'Aayush'];
+
+// console.log(elements.join());
+
+// console.log(elements.join(''));
+
+// console.log(elements.join('-'));
+
+
+// ***********pops**************
+
+// const plants = ['cucumber', 'ladyfinger', 'cauliflower', 'onion', 'tomato', 'potato'];
+
+// console.log(plants.pop());
+
+// console.log(plants);
+
+// plants.pop();
+
+// console.log(plants);
+
+
+
+//***************push */
+
+// const animals = ['cow', 'dog', 'cat'];
+
+// const count = animals.push('cow');
+
+// console.log(count);
+
+// // Expected output: 4
+
+// console.log(animals);
+
+// // Expected output: Array ["pigs", "goats", "sheep", "cows"]
+
+// animals.push('chicken', 'elephant', 'lion');
+
+// console.log(animals);
+
+
+
+// *********************unshift********************
+
+//unshift add from first
+
+// const amit = [1, 2, 3];
+
+// console.log(amit.unshift(4, 5));
+
+// console.log(amit);
+
+// ************splice****************
+
+// const numbers = ['one', 'three', 'four', 'five'];
+
+// numbers.splice(1, 0, 'two');
+
+// console.log(numbers);
+
+// numbers.splice(5, 0, 'six');
+
+// console.log(numbers);
+
+
+
+// ********************slice 
+
+// let animals = ['ape', 'cow', 'cat', 'dogs', 'buffalo'];
+
+// console.log(animals.slice(3));
+
+// console.log(animals.slice(2, 4));
+
+// console.log(animals.slice(1, 5));
+
+// console.log(animals.slice(-2));
+
+// console.log(animals.slice(2, -1));
+
+// console.log(animals.slice());
+
+
+
+//***************reversed */
+
+
+// const items = [1, 2, 3];
+
+// console.log(items); 
+
+// const reversedItems = items.toReversed();
+
+// console.log(reversedItems); 
+
+// console.log(items); 
 
 
 
