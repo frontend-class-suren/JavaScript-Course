@@ -363,32 +363,115 @@ findGrade(studentMarks);
 
 //  *************************score*****************
 
-let ids = "acer";
+// let ids = "acer";
 
 
-function getScore() {
-    let maths = 90;
-    let science = 87;
-    let social = 84;
-    let english = 95;
-    let computer = 93;  
+// function getScore() {
+//     let maths = 90;
+//     let science = 87;
+//     let social = 84;
+//     let english = 95;
+//     let computer = 93;  
   
-    function add() {
-      return `${ids} scored total ${maths + science + social + english + computer} out of 500 in test`;
-    }
+//     function add() {
+//       return `${ids} scored total ${maths + science + social + english + computer} out of 500 in test`;
+//     }
   
-    return add();
-  }
+//     return add();
+//   }
   
-  console.log(getScore());
+//   console.log(getScore());
 
 
 
 
+// *********************************Arrays*********************************
 
 
+//***********length 
+
+// const fruits = [];
+// fruits.push("banana", "apple", "peach", "guava", "cherry");
+// console.log(fruits.length); 
 
 
+//*************** to string 
+
+// let array1 = [1, 2, 'a', '1a', 5, '9a'];
+
+// console.log(array1.toString());
+
+// *******************join **********************
+
+// const elements = ['Amit', 'Aakash', 'Aayush'];
+
+// console.log(elements.join());
+
+// console.log(elements.join(''));
+
+// console.log(elements.join('-'));
+
+
+// ***********pops**************
+
+// const plants = ['cucumber', 'ladyfinger', 'cauliflower', 'onion', 'tomato', 'potato'];
+
+// console.log(plants.pop());
+
+// console.log(plants);
+
+// plants.pop();
+
+// console.log(plants);
+
+
+//***************push */
+
+// const animals = ['cow', 'dog', 'cat'];
+
+// const count = animals.push('cow');
+// console.log(count);
+// // Expected output: 4
+// console.log(animals);
+// // Expected output: Array ["pigs", "goats", "sheep", "cows"]
+
+// animals.push('chicken', 'elephant', 'lion');
+// console.log(animals);
+
+// *********************unshift********************
+
+//unshift add from first
+
+// const amit = [1, 2, 3];
+
+// console.log(amit.unshift(4, 5));
+
+// console.log(amit);
+
+// ************splice****************
+
+// const numbers = ['one', 'three', 'four', 'five'];
+// numbers.splice(1, 0, 'two');
+// console.log(numbers);
+// numbers.splice(5, 0, 'six');
+// console.log(numbers);
+
+
+// ********************slice 
+
+// let animals = ['ape', 'cow', 'cat', 'dogs', 'buffalo'];
+
+// console.log(animals.slice(3));
+
+// console.log(animals.slice(2, 4));
+
+// console.log(animals.slice(1, 5));
+
+// console.log(animals.slice(-2));
+
+// console.log(animals.slice(2, -1));
+
+// console.log(animals.slice());
 
 
 
