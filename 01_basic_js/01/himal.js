@@ -108,28 +108,30 @@
 //     console.log(i+1)
 // }
 
-function abc(a,b){
+// function abc(a,b){
     // var a =2
     // var b = 3
-    var expo = a**b
-    console.log(expo)
+    // var expo = a**b
+    // console.log(expo)
 
-}
+// }
 // abc(3,5)
 
-function Str1(){
-    console.log("this is string function")
-    var student = "b.tech"
-    var batch = 2024
-    let result1 = 70
-    console.table("BMC college"+student+"is"+batch+"is score"+result1)
-}
+// function Str1(){
+//     console.log("this is string function")
+//     var student = "b.tech"
+//     var batch = 2024
+//     let result1 = 70
+//     console.table("BMC college"+student+"is"+batch+"is score"+result1)
+// }
 
-Str1()
+// Str1()
 // { <a type="button" onclick="Str1()">Details</a> }
 
-function studentRecord(Name,Address,phone,email)
-{
-    console.table(Name+ Address + phone + email)  
-}
-studentRecord("Himal","butwal-10, Milanchok ",9847111261," abcchaubisey.com")
+// function studentRecord(Name,Address,phone,email)
+// {
+//     console.table(Name+ Address + phone + email)  
+// }
+// studentRecord("Himal","butwal-10, Milanchok ",9847111261," abcchaubisey.com")
+
+
