@@ -419,44 +419,47 @@
 // hw for 2/13/2024
 const cars = ["Toyota", "Honda", "Ford"];
 
-console.log(cars.length);
-console.log(cars.toString());
-console.log(cars.at(1));
-console.log(cars.join(", "));
+// console.log(cars.length);
+// console.log(cars.toString());
+// console.log(cars.at(1));
+// console.log(cars.join("*"));
 
-const removedCar = cars.pop();
-console.log(removedCar);
-console.log(cars);
+// let removedCar = cars.pop();
+// cars.pop()
+// console.log(removedCar);
+// console.log(cars);
 
-cars.push("BMW");
-console.log(cars);
+// cars.push("BMW");
+// console.log(cars);
 
-const shiftedCar = cars.shift();
+const shiftedCar = cars.unshift("suzuki-800");
 console.log(shiftedCar);
 console.log(cars);
-
-cars.unshift("Tesla");
+cars.pop()
 console.log(cars);
 
-delete cars[1];
-console.log(cars);
+// cars.unshift("Tesla");
+// console.log(cars);
 
-const cars1 = ["Toyota", "Honda"];
-const cars2 = ["Ford", "BMW"];
-const allCars = cars1.concat(cars2);
-console.log(allCars);
+// delete cars[1];
+// console.log(cars);
 
-cars.copyWithin(2, 0, 2);
-console.log(cars);
+// const cars1 = ["Toyota", "Honda"];
+// const cars2 = ["Ford", "BMW"];
+// const allCars = cars1.concat(cars2);
+// console.log(allCars);
 
-const nestedArray = [1, 2, [3, 4], 5];
-const flatArray = nestedArray.flat();
-console.log(flatArray);
+// cars.copyWithin(2, 0, 2);
+// console.log(cars);
 
-const removedItems = cars.splice(1, 2);
-console.log(removedItems);
-console.log(cars);
+// const nestedArray = [1, 2, [3, 4], 5];
+// const flatArray = nestedArray.flat();
+// console.log(flatArray);
 
-const slicedCars = cars.slice(1, 3);
-console.log(slicedCars);
-console.log(cars);
+// const removedItems = cars.splice(1, 2);
+// console.log(removedItems);
+// console.log(cars);
+
+// const slicedCars = cars.slice(1, 3);
+// console.log(slicedCars);
+// console.log(cars);

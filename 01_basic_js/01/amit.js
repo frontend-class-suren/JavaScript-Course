@@ -474,9 +474,9 @@ findGrade(studentMarks);
 
 // ********************slice 
 
-// let animals = ['ape', 'cow', 'cat', 'dogs', 'buffalo'];
+let animals = ['ape', 'cow', 'cat', 'dogs', 'buffalo'];
 
-// console.log(animals.slice(3));
+console.log(animals.slice(3));
 
 // console.log(animals.slice(2, 4));
 

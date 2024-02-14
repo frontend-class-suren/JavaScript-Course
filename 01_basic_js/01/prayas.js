@@ -88,18 +88,18 @@
 // }
 
 
-Homework
+// Homework
 
 // Print “Number is even” if the number is divisible by 2.
-function printEvenOrOdd(number) {
-    if (number % 2 === 0) {
-        console.log(number + " is even");
-    } else {
-        console.log(number + " is odd");
-    }
-}
-let num = 22;
-printEvenOrOdd(num);
+// function printEvenOrOdd(number) {
+//     if (number % 2 === 0) {
+//         console.log(number + " is even");
+//     } else {
+//         console.log(number + " is odd");
+//     }
+// }
+// let num = 22;
+// printEvenOrOdd(num);
 
 // Else print “Number is odd” if the number returns a remainder when divided by 2.
 
@@ -222,63 +222,66 @@ Otherwise add, "Failed to reach orbit."
 Check your solution.
 */
 
-Homework
+// Homework
 
 // Array length
-const fruits = ['apple', 'banana', 'orange'];
-console.log(fruits.length);
+// const fruits = ['apple', 'banana', 'orange'];
+// console.log(fruits.length);
 
 // Array toString()
-console.log(fruits.toString());
+// console.log(fruits.toString());
 
 // Array at()
-console.log(fruits.at(1));
+// console.log(fruits.at(1));
 
 // Array join()
-console.log(fruits.join(', '));
+// console.log(fruits.join(', '));
 
 // Array pop()
-const poppedFruit = fruits.pop();
-console.log(poppedFruit);
-console.log(fruits);
+// const poppedFruit = fruits.pop();
+// console.log(poppedFruit);
+// console.log(fruits);
 
 // Array push()
-fruits.push('grape');
-console.log(fruits);
+// fruits.push('grape');
+// console.log(fruits);
 
 // Array shift()
-const shiftedFruit = fruits.shift();
-console.log(shiftedFruit);
-console.log(fruits);
+// const shiftedFruit = fruits.shift();
+// console.log(shiftedFruit);
+// console.log(fruits);
 
 // Array unshift()
-fruits.unshift('kiwi');
-console.log(fruits);
+// fruits.unshift('kiwi');
+// console.log(fruits);
 
 // Array delete()
-delete fruits[1];
-console.log(fruits);
+// delete fruits[1];
+// console.log(fruits);
 
 // Array concat()
-const moreFruits = ['strawberry', 'blueberry'];
-const allFruits = fruits.concat(moreFruits);
-console.log(allFruits);
+// const moreFruitsA = ['strawberry', 'blueberry'];
+// const moreFruitsB = ['apple', 'blackberry'];
+// const allFruits = moreFruitsA.concat(moreFruitsB);
+
+/// var two = concat(str1,str2) --- in c  language
+// console.log(allFruits);
 
 // Array copyWithin()
-const numbers = [1, 2, 3, 4, 5];
-numbers.copyWithin(0, 3);
-console.log(numbers);
+// const numbers = [1, 2, 3, 4, 5];
+// numbers.copyWithin(0, 3);
+// console.log(numbers);
 
 // Array flat()
-const nestedArray = [1, [2, 3], [4, [5]]];
-const flattenedArray = nestedArray.flat();
-console.log(flattenedArray);
+// const nestedArray = [1, [2, 3], [4, [5]]];
+// const flattenedArray = nestedArray.flat();
+// console.log(flattenedArray);
 
 // Array splice()
-const months = ['Jan', 'March', 'April', 'June'];
-months.splice(1, 0, 'Feb');
-console.log(months);
+// const months = ['Jan', 'March', 'April', 'June'];
+// months.splice(1, 0, 'Feb');
+// console.log(months);
 
 // Array slice()
-const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+// const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
 // console.log(animals.slice(2));
