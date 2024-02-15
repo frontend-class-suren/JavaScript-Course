@@ -738,7 +738,7 @@ console.log("Updated fruits array after unshift:", fruits);
 // Array slice()
 let slicedFruits = fruits.slice(1, 3);
 console.log("Sliced fruits array:", slicedFruits);
-
+//
 
 
 
