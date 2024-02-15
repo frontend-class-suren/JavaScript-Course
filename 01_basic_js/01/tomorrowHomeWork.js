@@ -146,6 +146,8 @@ Check your solution.
 
 
 /*
+
+Home work for tomorrow-16-02-2024
 Javascript strings are primitive and immutable: All string methods produces a new string without altering the original string.
 
 String length
