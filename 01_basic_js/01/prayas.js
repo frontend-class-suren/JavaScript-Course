@@ -285,3 +285,44 @@ Check your solution.
 // Array slice()
 // const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
 // console.log(animals.slice(2));
+
+Homework
+
+let str = "   JavaScript is awesome!   ";
+console.log("Original String:", str);
+
+// String length
+console.log("Length of the string:", str.length);
+
+// String charAt()
+console.log("Character at index 5:", str.charAt(5));
+
+// String charCodeAt()
+console.log("Unicode value of character at index 5:", str.charCodeAt(5));
+
+// String slice()
+console.log("Sliced string from index 13 to end:", str.slice(13));
+
+// String substring()
+console.log("Substring from index 13 to 24:", str.substring(13, 25));
+
+// String substr()
+console.log("Substring starting from index 13 with length 10:", str.substr(13, 10));
+
+// String trim()
+console.log("Trimmed string:", str.trim());
+
+// String toUpperCase()
+console.log("Uppercase:", str.toUpperCase());
+
+// String toLowerCase()
+console.log("Lowercase:", str.toLowerCase());
+
+// String concat()
+console.log("Concatenated with ' - I love it!':", str.concat(" - I love it!"));
+
+// String replace()
+console.log("Replaced 'awesome' with 'fantastic':", str.replace("awesome", "fantastic"));
+
+// String split()
+console.log("Split by space:", str.split(" "));
