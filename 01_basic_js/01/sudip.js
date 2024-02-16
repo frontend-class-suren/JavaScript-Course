@@ -741,6 +741,49 @@ console.log("Sliced fruits array:", slicedFruits);
 //
 
 
+//hw of 2024-2-16
+// String methods examples
+
+let str = "   Hello World   ";
+console.log("Original String:", str);
+
+// String length
+console.log("Length of the string:", str.length);
+
+// String charAt()
+console.log("Character at index 4:", str.charAt(4));
+
+// String charCodeAt()
+console.log("Unicode value of character at index 4:", str.charCodeAt(4));
+
+// String slice()
+console.log("Sliced string from index 6 to 11:", str.slice(6, 12));
+
+// String substring()
+console.log("Substring from index 3 to 7:", str.substring(3, 8));
+
+// String substr()
+console.log("Substring starting from index 8 with length 5:", str.substr(8, 5));
+
+// String trim()
+console.log("Trimmed string:", str.trim());
+
+// String toUpperCase()
+console.log("Uppercase:", str.toUpperCase());
+
+// String toLowerCase()
+console.log("Lowercase:", str.toLowerCase());
+
+// String concat()
+console.log("Concatenated with ' - Bye!':", str.concat(" - Bye!"));
+
+// String replace()
+console.log("Replaced 'World' with 'Universe':", str.replace("World", "Universe"));
+
+// String split()
+console.log("Split by space:", str.split(" "));
+
+
 
 
 
