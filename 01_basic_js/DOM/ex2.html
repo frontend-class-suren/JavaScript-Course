@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM example2 getElementById</title>
+  </head>
+  <body>
+    <form>
+      Enter No:<input type="text" id="number" name="number" />
+      <input type="button" value="cube" onclick="getcube()" />
+    </form>
+
+    <script type="text/javascript">  
+        function getcube(){  
+        var number=document.getElementById("number").value;  
+        alert(number*number*number);  
+        }  
+        </script>  
+  </body>
+</html>
