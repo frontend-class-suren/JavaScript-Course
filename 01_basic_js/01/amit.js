@@ -548,77 +548,79 @@ findGrade(studentMarks);
 
 // stringat
 
-// var word = "Hello, World!";
+// let word = "Hello, World!";
 
-// var character = word[7];
+// let character = word[7];
 
 // console.log("Character 7:", character);
 
 
 //string slice
 
-// var word = "Hello, World!";
+// let word = "Hello, World!";
 
-// var slice = word.slice(0, 5);
+// let slice = word.slice(0, 5);
 
 // console.log("Slice:", slice);
 
 
 //substring
 
-// var word  = "Hello, World!";
+// let word  = "Hello, World!";
 
-// var substring = word.substring(0, 5);
+// let substring = word.substring(0, 5);
 
 // console.log("Substring:", substring);
 
 
 // substr 
 
-// var word  = "Hello, World!";
+// let word  = "Hello, World!";
 
-// var subStrrr = word.substr(4, 10);
+// let subStrrr = word.substr(4, 10);
 
 // console.log("Substring:", subStrrr);
 
 
 // trim
 
-// var output = "   Hello, World!   ";
+// let output = "   Hello, World!   ";
 
-// var trimmedoutput = output.trim();
+// let trimmedoutput = output.trim();
 
 // console.log("Trimmed output:", trimmedoutput);
 
 //upppercase
 
-// var output = "Hello, World!";
+// let output = "Hello, World!";
 
-// var Upppercase = output.toUpperCase();
+// let Upppercase = output.toUpperCase();
 
 // console.log("Uppercase output:", Upppercase);
 
 
 //lowercase
 
-// var output = "Hello, World!";
+// let output = "Hello, World!";
 
-// var Lowercase = output.toLowerCase();
+// let Lowercase = output.toLowerCase();
 
 // console.log("lowercase output:", Lowercase);
 
 
 // concat 
 
-let str1 = "I'm";
+// let str1 = "I'm";
 
-let str2 = " Amit ";
+// let str2 = " Amit ";
 
-let str3 = "Gaire";
+// let str3 = "Gaire";
 
-let concateeee = str1.concat(str2, str3);
+// let concateeee = str1.concat(str2, str3);
 
-console.log("Concat:", concateeee);
+// console.log("Concat:", concateeee);
+
+
 
 
 
