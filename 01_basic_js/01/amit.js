@@ -474,9 +474,9 @@ findGrade(studentMarks);
 
 // ********************slice 
 
-let animals = ['ape', 'cow', 'cat', 'dogs', 'buffalo'];
+// let animals = ['ape', 'cow', 'cat', 'dogs', 'buffalo'];
 
-console.log(animals.slice(3));
+// console.log(animals.slice(3));
 
 // console.log(animals.slice(2, 4));
 
@@ -502,6 +502,130 @@ console.log(animals.slice(3));
 // console.log(reversedItems); 
 
 // console.log(items); 
+
+
+
+// 2/16 hw 
+
+
+
+// length 
+
+// let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+// let length = alphabet.length;
+
+// console.log("Length:", length);
+
+
+// charat 
+
+// 1st example
+
+// let print = "Hello, World!";
+
+// let character = print.charAt(7);
+
+// console.log("Character 7 is:", character);
+
+// 2nd example 
+
+// let namee= "Hi, My name is Amit Gaire!";
+
+// let character = namee.charAt(20);
+
+// console.log("Character 19 is :", character);
+
+
+// charcodeat 
+
+// let namee= "Hi, My name is Amit Gaire!";
+
+// let character = namee.charCodeAt(20);
+
+// console.log("Charcode 20:", character);
+
+
+// stringat
+
+// var word = "Hello, World!";
+
+// var character = word[7];
+
+// console.log("Character 7:", character);
+
+
+//string slice
+
+// var word = "Hello, World!";
+
+// var slice = word.slice(0, 5);
+
+// console.log("Slice:", slice);
+
+
+//substring
+
+// var word  = "Hello, World!";
+
+// var substring = word.substring(0, 5);
+
+// console.log("Substring:", substring);
+
+
+// substr 
+
+// var word  = "Hello, World!";
+
+// var subStrrr = word.substr(4, 10);
+
+// console.log("Substring:", subStrrr);
+
+
+// trim
+
+// var output = "   Hello, World!   ";
+
+// var trimmedoutput = output.trim();
+
+// console.log("Trimmed output:", trimmedoutput);
+
+//upppercase
+
+// var output = "Hello, World!";
+
+// var Upppercase = output.toUpperCase();
+
+// console.log("Uppercase output:", Upppercase);
+
+
+//lowercase
+
+// var output = "Hello, World!";
+
+// var Lowercase = output.toLowerCase();
+
+// console.log("lowercase output:", Lowercase);
+
+
+// concat 
+
+let str1 = "I'm";
+
+let str2 = " Amit ";
+
+let str3 = "Gaire";
+
+let concateeee = str1.concat(str2, str3);
+
+console.log("Concat:", concateeee);
+
+
+
+
+
+
+
 
 
 
