@@ -170,11 +170,20 @@
 // console.log(easydoeseat)
 // console.table(easydoeseat)
 
-const numbers = ['two', 'four', 'six', 'eight'];
+// const numbers = ['two', 'four', 'six', 'eight'];
 
-numbers.splice(1, 0, 'six');
+// numbers.splice(1, 0, 'six');
 
-console.log(numbers);
+// console.log(numbers);
+
+
+
+// let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+// let length = alphabet.length;
+
+// console.log("Length:", length);
+
 
 
 
