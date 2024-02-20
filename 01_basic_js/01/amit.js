@@ -326,6 +326,51 @@ findGrade(studentMarks);
 //     }
 // }
 
+// switch 
+
+// switch (operation)      case "add":
+//         console.log("Result:", num1 + num2);
+//         break;
+//    case "subtract":
+//        console.log("Result:", num1 - num2);
+//        break;
+//     case "multiply":
+//         console.log("Result:", num1 * num2);
+//         break;
+//     case "divide":
+//         console.log("Result:", num1 / num2);
+//         break;
+//     case "modulus":
+//         console.log("Result:", num1 % num2);
+//         break;
+//    default:
+//         console.log("Invalid operation");
+//  }
+//  Perform arithmetic operation
+
+
+
+//  switch (operation) {
+//      case "add":
+//          console.log("Result:", num1 + num2);
+//          break;
+//      case "subtract":
+//          console.log("Result:", num1 - num2);
+//          break;
+//      case "multiply":
+//          console.log("Result:", num1 * num2);
+//          break;
+//      case "divide":
+//          console.log("Result:", num1 / num2);
+//          break;/ //     case "modulus":
+//        console.log("Result:", num1 % num2);
+//          break;
+//      default:
+//          console.log("Invalid operation");
+
+
+
+
 
 
 // In the loop, determine if each number is even or odd, then put that number into evens or odds, as appropriate.
