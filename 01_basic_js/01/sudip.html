@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo">Old Content</div>
+    <p>This is paragraph</p>
+    <div class="demo">class name in  dom js</div>
+
+    <div id="css">This is blue</div>
+
+    <script>
+        // <!-- // The easiest way to modify the content of an HTML element is by using the innerHTML property. -->
+        // Finding HTML elements by id
+        document.getElementById('demo').innerHTML = "This is modified content";
+        // Finding HTML elements by tag name
+        let paragraph = document.getElementsByTagName("p");
+
+        //        // Finding HTML elements classname
+        let test=document.getElementsByClassName("demo")
+        if(test.length>0){
+            test[0].innerHTML = "Hello";
+        }
+
+        // Finding HTML elements by CSS selectors
+        document.getElementById("css").style.color = 'red';
+        document.getElementById("css").style.fontSize='50px';
+        document.getElementById("css").innerHTML = "This is modified";
+
+   
+
+
+
+    
+    </script>
+</body>
+</html>
