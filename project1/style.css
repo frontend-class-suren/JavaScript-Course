@@ -25,6 +25,11 @@ html , body {
     border-bottom: 2px solid black;
 }
 
+.menu-sec h1 {
+    text-align: center;
+    display:none;
+}
+
 .nav_header{
     margin-top: 40px;
     /* margin-right: 5%; */
@@ -199,10 +204,11 @@ html , body {
 .forbox {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     /* width:auto; */
     
-
 }
 
 
@@ -238,14 +244,33 @@ html , body {
 .logos {
     display: none;
 }
+
+.nav_header a {
+    display: none;
+}
+
+.menu-sec h1 {
+    /* padding:5px; */
+    text-align: center;
+    display: inline;
+}
 }
 
 @media (max-width:425px){
 .nav_header {
-    display: none;
+    /* display: none; */
+    
 }
 
+.card {
+    font-size: 10px;
+    height:100px;
+    width:200px;
+}
 
+.card p {
+    font-size: 20px;
+}
 }
 
 
