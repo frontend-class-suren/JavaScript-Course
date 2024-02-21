@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<style>
+    body{
+        background-color:antiquewhite;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .heading{
+        display: flex;
+        justify-content: space-between;
+        /* background-color: aqua; */
+        align-items: center;
+        margin-top: 8px;
+    }
+    nav{
+        display: flex;
+        
+        
+    }
+    nav li {
+        list-style: none;
+        padding: 10px;
+        
+
+    }
+    nav li a{
+        text-decoration: none;
+        color: black;
+    }
+    nav li a:hover{
+        color: red;
+    }
+    .right i:hover{
+        color: red;
+    }
+    .logo{
+        margin-left: 12%;
+    }
+    .right{
+        /* margin-right: 2%; */
+    }
+    .right i{
+        padding: 15px;
+    }
+    .threeline i{
+        display: none;
+    }
+    @media(max-width:957px){
+        .threeline i{
+            display: block;
+            font-size: 30px;
+        }
+        nav, .right{
+            display: none;
+        }
+        
+    }
+    .mainheading{
+        border: 8px solid black;
+        margin-left:5%;
+        margin-right: 5%;
+        margin-top: 10px;
+        border-radius: 20px;
+        background-color: white;
+    }
+    .body1{
+        margin-left: 11.9%;
+        margin-right: 11%;
+        margin-top: 20px;
+        margin-bottom: 70px;
+        display: flex;
+        
+       
+
+    }
+    .chair img{
+        height: 300px;
+        width: 200px;
+    }
+    .twob{
+        display: flex;
+        background-color: aliceblue;
+        width: 60%;
+        /* padding-top: 5%; */
+        padding-left: 5%;
+        /* padding-bottom: 5%; */
+        align-items: center;
+       
+    }
+    .twoc{
+        background-color: bisque;
+        width: 40%;
+        /* align-items: center; */
+    
+    }
+    .text2 h1{
+        padding-top: 113px; /* Adjusted padding */
+    font-size: 60px; /* Default font size */
+    }
+
+    .text1{
+        margin-left: 100px;
+        align-items: center;
+    }
+    .text1 h1{
+        font-size: 60px;
+        padding-right: 5px;
+    }
+    .text2 h1{
+        font-size: 60px;
+        align-items: center;
+    }
+    .btn1{
+        /* padding-top: 100%; */
+        /* margin-top: 100%; */
+        
+    }
+    .btn1 button{
+        background-color: red;
+        border: 2px solid red;
+        width: 100%;
+        height: 50px;
+        
+        
+    }
+    .btn1 button:hover{
+        background-color: black;
+        color: red;
+        
+    }
+
+
+    .body1 {
+    margin: 20px 5%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+.twob, .twoc {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.chair img {
+    max-width: 100%;
+    /* min-width: 10%; */
+    height: 200px;
+}
+
+.text1 {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.text1 h1, .text2 h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    
+}
+
+.btn1 button {
+    background-color: red;
+    border: 2px solid red;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn1 button:hover {
+    background-color: black;
+    color: red;
+}
+
+@media (max-width: 1050px) {
+    .twob, .twoc {
+        width: 100%;
+    }
+}
+@media(max-width:500px){
+
+}
+.body2{
+    margin-left:6%;
+        margin-right: 6%;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+.body2 h2{
+    font-size: 40px;
+    border-bottom: 2px solid orangered ;
+   max-width: 90%;
+}
+.leftside{
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.leftside li{
+    list-style: none;
+    padding-left: 15px;
+    
+}
+.rightside img{
+    width: 280px;
+    height: 350px;
+    
+}
+.rightside{
+    margin-right: 8.5%;
+}
+.ff{
+    background-color:aquamarine;
+    margin-top: 10px;
+}
+.acc{
+    background-color: white;
+    padding: 10px;
+    max-width: 100px;
+    margin-left: 200px;
+}
+.sofas{
+    background-color: white;
+    padding: 10px;
+    max-width: 150px;
+}
+.fs{
+    background-color: skyblue;
+    margin-top: 10px;
+}
+.f1{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+    
+    
+}
+@media(max-width:992px){
+    /* .f1{
+        margin-left:50px;
+        margin-right: 100px;
+      
+    } */
+
+}
+</style>
+<body>
+    <section class="mainheading">
+    <section class="heading">
+        <div class="logo">
+            <h1>Furniture</h1>
+        </div>
+        <nav>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Furniture</a></li>
+            <li><a href="#">Demo</a></li>
+            <li><a href="">Description</a></li>
+            <li><a href="">Question</a></li>
+            <li><a href="">Magazine</a></li>
+            <li><a href="">Outline</a></li>
+        </nav>
+        <div class="right">
+            <i class="fa-regular fa-user"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-store"></i>
+        </div>
+        <div class="threeline">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </section>
+    <section class="body1">
+        <div class="twob">
+        <div class="chair">
+            <img src="./chair2.png" alt="">
+        </div>
+        <div class="text1">
+            <h2>New Collection</h2>
+            <h1>Chairs &</h1>
+            <p>Lorem ipsum dolor sit amet consectetur <br>Lorem, ipsum dolor.</p>
+        </div>
+     </div>
+      <div class="twoc">
+           <div class="text2">
+            <h1>Stools</h1>
+
+           </div>
+           <br><br><br><br>
+           <div class="btn1">
+            <button>See More   <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+     </div>
+    </section>
+</section>
+
+<section class="body2">
+    <div class="leftside">
+    <h1>On sale</h1>
+    <h2>Up to <br> 20% off</h2> <br>
+    <p>our dhvd winter collection</p>
+    <br><br><br>
+    <p>lorem </p><br>
+    <b>lorem</b>
+    <div><br>
+        <li>lorem</li>
+        <li>lorem</li>
+        <li>lorem</li>
+        <li>lorem</li>
+        <li>lorem</li>
+    </div>
+    <br>
+    <b>lorem</b><br><br>
+    <b>lorem</b><br><br>
+    <b>lorem</b><br><br>
+    <b>lorem</b><br><br>
+    <b>lorem</b>
+</div>
+<div class="rightside">
+    <div class="f1">
+    <div class="ff">
+    <img src="./flower2.png" alt="">
+    <div class="acc">
+        <p>Accessories</p>
+    </div>
+    </div>
+    <div class="fs">
+        <img src="./sofas.png" alt="">
+        <div class="sofas">
+            <p>Sofas & armchairs</p>
+        </div>
+    </div>
+
+ </div>
+</div>
+</section>
+</body>
+</html>
