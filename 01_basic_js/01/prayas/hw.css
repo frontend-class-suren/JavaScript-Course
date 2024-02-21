@@ -1,0 +1,154 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html , body {
+    width:100%;
+    height:100%;
+
+}
+.shopsection {
+    /* width:100vw; */
+    height:auto;
+    padding:30px;
+    background-color: antiquewhite;
+    position:relative;
+}
+
+.shop{
+    padding:20px;
+    text-align: center;
+    top:16vh;
+    right:15vw;
+     height:auto;
+    width:70vw;
+    margin: auto;
+    background-color: aliceblue;
+    /* position: absolute; */
+}
+
+.shop p{
+padding:20px;
+
+}
+
+.shop h1 {
+    padding-bottom: 6px;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.photo-sec {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:10px;
+    
+}
+
+.photos {
+    height:250px;
+    width:250px;    
+    /* border:1px solid black; */
+}
+
+.photos img {
+    height:250px;
+    width:250px;
+}
+
+.photo-sec2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    flex-wrap:wrap;
+    gap:10px;
+
+}
+
+
+
+
+
+
+.footer_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+  }
+  
+  .details li {
+    list-style: none;
+    font-size: medium;
+    opacity: 0.9;
+  }
+  
+  .details {
+    padding:15px;
+    text-align: center;
+  }
+  
+  .contact_details {
+    padding:15px;
+    text-align: center;
+  }
+  
+  .contact_details p {
+    opacity: 0.9;
+    
+  }
+  
+  .details li:hover {
+    color:rgb(30, 152, 36);
+  }
+
+  .button {
+
+    background-color: #015d01d1;
+    border: none;
+    color: rgb(243, 246, 242);
+    padding: 15px 32px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 8px 6rem; */
+    cursor: pointer;
+  } 
+  
+  .button2:hover {
+    background-color: #02350c;
+}
+
+@media (max-width:1000px){
+    .photo-sec {
+        flex-direction: column;
+        /* width:auto; */
+        align-items: center;
+    }
+   
+    .photo-sec2 {
+        flex-direction: column;
+        /* width:auto; */
+        align-items: center;
+    }
+ 
+
+}
+
+
+
+@media (max-width:1080px){
+
+
+.footer_section{
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
