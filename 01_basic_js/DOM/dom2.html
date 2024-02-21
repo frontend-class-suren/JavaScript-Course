@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript HTML DOM</h2>
+<img id="image" src="/bird.jpeg" width="160" height="120">
+<button type="button" onClick="imageChange()">click to change</button>
+
+<script>
+function imageChange(){
+document.getElementById("image").src = "../../bed.jpeg";
+}
+</script>
+
+<p>The original image was smiley.gif, but the script changed it to landscape.jpg</p>
+
+</body>
+</html>
