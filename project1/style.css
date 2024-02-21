@@ -98,7 +98,9 @@ html , body {
     background-position:center;
     margin-right: 10%;
     position:relative;
-    object-fit:cover;
+    /* object-fit:cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
@@ -164,6 +166,98 @@ html , body {
    width:100%;
 }
 
+.cont {
+    /* background-color: antiquewhite; */
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    /* height:80vh; */
+    /* width:100%; */
+    /* position: relative; */
+}
+
+/* .firstpart {
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+} */
+
+.box1 {
+    /* height:100vh; */
+    width:50vw;
+    /* position: absolute; */
+    /* background-color:white; */
+}
+
+.box1 h1 {
+    font-size: 50px;
+    font-weight: 400;
+    padding:4rem 4rem;
+    /* text-align: left; */
+}
+
+.box1 p {
+    padding:0rem 6rem;
+    font-size: 20px;
+
+    text-align: left;
+}
+
+.gadgets {
+    margin: 5rem 2rem;
+    /* left:-50; */
+    /* position: relative; */
+    height:80vh;
+    width:auto;;
+}
+
+.gadgets img {
+    /* padding:4rem; */
+    /* left:-20; */
+    /* position: absolute; */
+    height:50vh;
+    width:auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1080px){
+  
+
+    .box1 p {
+        display: none;
+    }
+
+
+}
+
+
+
+
 
 @media (max-width:1000px){
     .Sensi {
@@ -198,6 +292,13 @@ html , body {
     .card p {
         font-size: 36px;
     }
+
+    .cont {
+
+        flex-direction: column;
+        align-items: center;
+
+    }
 }
 
 @media (max-width:700px){
@@ -210,6 +311,9 @@ html , body {
     /* width:auto; */
     
 }
+
+
+
 
 
 }
@@ -254,13 +358,15 @@ html , body {
     text-align: center;
     display: inline;
 }
+
+.gadgets img {
+    width:300px;
+}
+
+
 }
 
 @media (max-width:425px){
-.nav_header {
-    /* display: none; */
-    
-}
 
 .card {
     font-size: 10px;
