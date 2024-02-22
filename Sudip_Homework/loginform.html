@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loginform.css">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: rgb(217, 71, 119);
+        
+    }
+    .loginform{
+        background-color: white;
+        padding: 10px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 13%;
+        
+    }
+    .login{
+        display: flex;
+ 
+
+
+    }
+    h1{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .button1{
+        background-color:  rgb(217, 71, 119);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        color: white;
+
+    }
+    .button2{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        color: black;
+    }
+    .button1:hover,.button2:hover{
+        background-color: rgb(217, 71, 119);
+        
+    }
+    form{
+        /* padding-left: 110px; */
+        padding-bottom: 25px;
+    }
+    .btn3{
+        background-color: rgb(217, 71, 119);
+        width: 281px;
+        height: 40px;
+    }
+    .btn3:hover{
+        background-color: white;
+        color: black;
+    }
+
+</style>
+<body>
+
+  <div class="loginform">
+    <h1 id="heading">Login Form</h1><br>
+    <div id="Form" class="login">
+        <button id="btn1" class="button1" onclick="btn1()">Login</button>
+        <button id="btn2" class="button2" onclick="btn2()">Signup</button>
+    </div>
+    <div id="demo"><form action="#"><br>
+        <input type="text" placeholder="Email Address" style="height: 35px; width: 282px;padding-left: 10px;"required><br><br>
+        <input type="password" placeholder="Password" style="height: 35px; width: 282px;padding-left: 10px;"required> <br>
+        <a style="color: rgb(184, 84, 101); text-decoration: none;" href="#">Forgot Password?</a><br><br>
+        <button class="btn3">Login</button><br><br><p style="text-align: center;">Not a member?<span style="color: rgb(217, 71, 119) ;">Signup now</span></p>
+    </form></div>
+
+
+    
+  </div>
+
+
+    <script src="loginform.js"></script>
+</body>
+</html>
