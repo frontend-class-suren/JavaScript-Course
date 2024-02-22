@@ -1,0 +1,145 @@
+ <!-- The easiest way to modify the content of an HTML element is by using the innerHTML property. -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modify HTML Element Content</title>
+ </head>
+ <body>
+
+    <div id="Somarjun">
+        Original Content
+    </div>
+
+    <script>
+        var element = document.getElementById("Somarjun");
+
+        element.innerHTML = "New Content";
+    </script>
+ </body>
+ </html>
+
+
+
+ <!-- Finding HTML elements by id -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finding HTML Elements by ID</title>
+</head>
+<body>
+    
+    <div id="Somarjun">
+        This is the content of Somarjun.
+    </div>
+
+    <script>
+        var element = document.getElementById("Somarjun");
+
+        element.innerHTML = "This content has been changed.";
+
+        element.style.color = "golden";
+    </script>
+
+</body>
+</html>
+
+
+
+ <!-- Finding HTML elements by tag name -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finding HTML Elements by Tag Name</title>
+ </head>
+ <body>
+    <div>This is the first div.</div>
+    <div>This is the second </div>
+ </body>
+ </html>
+
+
+
+ <!-- Finding HTML elements by class name -->
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Find Elements by Class Name</title>
+</head>
+<body>
+
+<div class="container">
+  <p class="text">Paragraph 1</p>
+  <p class="text">Paragraph 2</p>
+  <p class="text">Paragraph 3</p>
+</div>
+
+<script>
+  // Find elements by class name
+  var elements = document.getElementsByClassName("text");
+  for (var i = 0; i < elements.length; i++) {
+    console.log(elements[i].textContent);
+  }
+</script>
+
+</body>
+</html>
+
+
+
+ <!-- Finding HTML elements by CSS selectors -->
+ <!DOCTYPE html>
+ <html>
+ <head>
+   <title>Find Elements by CSS Selectors</title>
+ </head>
+ <body>
+ 
+ <div class="container">
+   <p class="text">Paragraph 1</p>
+   <p class="text">Paragraph 2</p>
+   <p class="text">Paragraph 3</p>
+ </div>
+ 
+ <script>
+   // Find elements by CSS selectors
+   var elements = document.querySelectorAll(".text");
+   elements.forEach(function(element) {
+     console.log(element.textContent);
+   });
+ </script>
+ 
+ </body>
+ </html>
+
+ 
+
+ <!-- Finding HTML elements by HTML object collections -->
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Find Elements by HTML Object Collections</title>
+</head>
+<body>
+
+<div class="container">
+  <p>Paragraph 1</p>
+  <p>Paragraph 2</p>
+  <p>Paragraph 3</p>
+</div>
+
+<script>
+  // Find elements by HTML object collections
+  var elements = document.getElementsByTagName("p");
+  for (var i = 0; i < elements.length; i++) {
+    console.log(elements[i].textContent);
+  }
+</script>
+
+</body>
+</html>
