@@ -4,7 +4,7 @@ function btn1(){
     document.getElementById("demo").innerHTML = codeOfLogin;
     document.getElementById("heading").innerHTML="Login Form";
     document.getElementById("btn1").style.backgroundColor=" rgb(217, 71, 119)";
-    document.getElementById("btn2").style.backgroundColor=" whitegit";
+    document.getElementById("btn2").style.backgroundColor=" white";
     
    
 }
