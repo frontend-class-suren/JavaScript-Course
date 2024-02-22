@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,35 +6,24 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="demo">Old Content</div>
-    <p>This is paragraph</p>
-    <div class="demo">class name in  dom js</div>
-
-    <div id="css">This is blue</div>
+    <button onclick="myfunction()">Click Me</button>
+    <div id="demo">hello</div>
 
     <script>
-        // <!-- // The easiest way to modify the content of an HTML element is by using the innerHTML property. -->
-        // Finding HTML elements by id
-        document.getElementById('demo').innerHTML = "This is modified content";
-        // Finding HTML elements by tag name
-        let paragraph = document.getElementsByTagName("p");
+             let flash=true;
+           let form= "<form action=''> Enter Name: <input type='text'>"
 
-        //        // Finding HTML elements classname
-        let test=document.getElementsByClassName("demo")
-        if(test.length>0){
-            test[0].innerHTML = "Hello";
+        function myfunction(){
+         
+            if (flash){
+            document.getElementById("demo").innerHTML=form;
+            flash=false;
+                }
+                else{
+                document.getElementById("demo").innerHTML = "hello";
+            flash=true;
         }
-
-        // Finding HTML elements by CSS selectors
-        document.getElementById("css").style.color = 'red';
-        document.getElementById("css").style.fontSize='50px';
-        document.getElementById("css").innerHTML = "This is modified";
-
-   
-
-
-
-    
+    }
     </script>
 </body>
 </html>
