@@ -6,19 +6,21 @@
 html, body{
     width:100vw;
     height:100vh;
+    /* font-family:'Poppins'; */
+
 }
 
 body {
     background-color: #ff3dd2;
     background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
-    ;
+    /* font-family: 'Poppins'; */
 }
 
 .container {
-    border-radius: 20px;
+    border-radius: 0px;
     background-color: white;
     border:1px solid black;
-    height:380px;
+    height:400px;
     width:300px;
     margin:10rem 42rem;
     padding:2rem;
@@ -26,20 +28,27 @@ body {
 }
 
 #for-login h1 {
-    font-family:monospace;
+    /* font-family:monospace; */
+    font-weight: 500;
+    text-align: center;
     font-size: 30px;
 }
 .buttonlog{
-    /* color:White; */
-    background-color: #cc4499;
+    color:White;
+  /* background-color: #cc4499; */
+    background-color: #ff3dd2;
+    background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%); 
     font-size: larger;
+    font-family:'Poppins';
     border-radius: 10px;
     padding:0.7rem 2.8rem;
-    color: rgb(0, 0, 0);
+    /* color: rgb(0, 0, 0); */
 }
 
 .buttonsign{
     font-size: larger;
+    font-family:'Poppins';
+
    padding:0.7em 2.8rem;
     color: black;
     border-radius: 10px;;
@@ -53,7 +62,9 @@ body {
 
 .buttonsign:hover {
     color:White;
-    background-color: #cc4499;
+    /* background-color: #cc4499; */
+    background-color: #ff3dd2;
+    background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
 
 }
 .option {
@@ -72,20 +83,30 @@ body {
 }
 
 #basepart a {
+    font-family:'Poppins';
+
     text-decoration: none;
     color:#cc4499;
     font-size: medium;
 }
 
 #basepart a:hover {
-    color:#663dff;
+    /* color:#663dff; */
     text-decoration: underline;
+}
+
+#basepart span {
+    font-family:'Poppins';
+
+    margin-left: 35px;
 }
 
 .loginbutton {
     height:50px;
     width:307px;
     padding: 10px;
+    font-family:'Poppins';
+
     border-radius: 10px;
 
 }
@@ -96,6 +117,7 @@ body {
 
 .loginbutton:hover {
     color:white;
-    background-color: #cc4499;
-
+    /* background-color: #cc4499; */
+    background-color: #ff3dd2;
+    background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
 }
