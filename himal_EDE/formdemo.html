@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flag wala js</title>
+    <script>
+        var Notshow = true;
+
+        function commentForm() {
+            var jpt = "<form>enter name<br><input type='text'/></form>";
+            if (Notshow) {
+                document.getElementById("form").innerHTML = jpt;
+                Notshow = false;
+            } else {
+                document.getElementById("form").innerHTML = "";
+                Notshow = true;
+
+            }
+        }
+    </script>
+</head>
+
+
+<body>
+
+    <button onClick="commentForm()">Click me for Commnent</button>
+    <div id="form"></div>
+</body>
+
+</html>

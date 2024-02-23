@@ -1,0 +1,101 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+html, body{
+    width:100vw;
+    height:100vh;
+}
+
+body {
+    background-color: #ff3dd2;
+    background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+    ;
+}
+
+.container {
+    border-radius: 20px;
+    background-color: white;
+    border:1px solid black;
+    height:380px;
+    width:300px;
+    margin:10rem 42rem;
+    padding:2rem;
+
+}
+
+#for-login h1 {
+    font-family:monospace;
+    font-size: 30px;
+}
+.buttonlog{
+    /* color:White; */
+    background-color: #cc4499;
+    font-size: larger;
+    border-radius: 10px;
+    padding:0.7rem 2.8rem;
+    color: rgb(0, 0, 0);
+}
+
+.buttonsign{
+    font-size: larger;
+   padding:0.7em 2.8rem;
+    color: black;
+    border-radius: 10px;;
+}
+
+.buttonlog:hover {
+    color:White;
+    background-color: #cc4499;
+
+}
+
+.buttonsign:hover {
+    color:White;
+    background-color: #cc4499;
+
+}
+.option {
+    display: flex;
+    justify-content: center;
+    gap:5px;
+}
+
+#basepart input {
+    height:40px;
+    width:300px;
+    padding:2px;
+    
+    border-radius: 5px;
+    font-size: large;
+}
+
+#basepart a {
+    text-decoration: none;
+    color:#cc4499;
+    font-size: medium;
+}
+
+#basepart a:hover {
+    color:#663dff;
+    text-decoration: underline;
+}
+
+.loginbutton {
+    height:50px;
+    width:307px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.loginbutton p {
+    font-size: large;
+}
+
+.loginbutton:hover {
+    color:white;
+    background-color: #cc4499;
+
+}
