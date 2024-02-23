@@ -1,0 +1,62 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: rgb(217, 71, 119);
+        
+    }
+    .loginform{
+        background-color: white;
+        padding: 10px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 13%;
+        
+    }
+    .login{
+        display: flex;
+ 
+
+
+    }
+    h1{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .button1{
+        background-color:  rgb(217, 71, 119);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        color: white;
+
+    }
+    .button2{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        color: black;
+    }
+    .button1:hover,.button2:hover{
+        background-color: rgb(217, 71, 119);
+        
+    }
+    form{
+        /* padding-left: 110px; */
+        padding-bottom: 25px;
+    }
+    .btn3{
+        background-color: rgb(217, 71, 119);
+        width: 281px;
+        height: 40px;
+    }
+    .btn3:hover{
+        background-color: white;
+        color: black;
+    }
