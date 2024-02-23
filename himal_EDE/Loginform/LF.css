@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: rgb(217, 71, 119); */
+    background-image: linear-gradient(to right, #A842AF , #F0419C);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    height: 100vh;
+    
+}
+
+.loginform{
+    background-color: white;
+    padding: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13%;
+    border-radius: 10px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.button1{
+    /* background-color:  rgb(217, 71, 119); */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    background-image: linear-gradient(to right, #A842AF , #F0419C);
+    border-radius: 4px;
+
+
+}
+.button2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* color: black; */
+    border-radius: 4px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+.button1:hover,.button2:hover{
+    /* background-color: rgb(217, 71, 119); */
+    background-image: linear-gradient(to right, #A842AF , #F0419C);
+    
+}
+form{
+    /* padding-left: 110px; */
+    padding-bottom: 25px;
+}
+.btn3{
+    /* background-color: rgb(217, 71, 119); */
+    background-image: linear-gradient(to right, #A842AF , #F0419C);
+    width: 281px;
+    height: 40px;
+    border-radius: 8px;
+}
+.btn3:hover{
+    background-color: white;
+    color: black;
+}

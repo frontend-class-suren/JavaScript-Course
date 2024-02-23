@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation demo</title>
+    <link rel="stylesheet" href="V.css">
+</head>
+<body>
+
+<div class="validation">
+    <h1><b><span></span>Demo on Validation</b></h1>
+    <form action="#" method="post">
+        <div class="form">
+            <label for="userid">User ID:</label>
+            <input type="text" id="userid" name="userid" pattern="[a-zA-Z0-9]{5,12}" required>
+        </div>
+        <div class="form">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" pattern=".{7,12}" required>
+        </div>
+        <div class="form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" pattern="[A-Za-z ]+" required>
+        </div>
+        <div class="form">
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address">
+        </div>
+        <div class="form">
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select Continent</option>
+                <option value="NEPAL">NEPAL</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">UK</option>
+                <option value="Australia">Australia</option>
+            </select>
+        </div>
+        <div class="form">
+            <label for="zip">Zip Code:</label>
+            <input type="text" id="zip" name="zip" pattern="[0-9]+" required>
+        </div>
+        <div class="form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form">
+            <label for="sex">Sex:</label><br>
+            <input type="radio" id="male" name="sex" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="sex" value="female" required>
+            <label for="female">Female</label><br>
+        </div>
+        <div class="form">
+            <label for="language">Language:</label><br>
+            <input type="checkbox" id="english" name="language" value="english" required>
+            <label for="english">English</label><br>
+            <input type="checkbox" id="non-english" name="language" value="non-english" required>
+            <label for="non-english">Non-English</label><br>
+        </div>
+        <div class="form">
+            <label for="about">About:</label>
+            <textarea id="about" name="about" rows="4"></textarea>
+        </div>
+        <div class="form">
+            <button type="onclick">Submit</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+.validation {
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, grey, khaki);
+}
+
+.validation h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #040303;
+}
+
+.form {
+    margin-bottom: 15px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #110909;
+}
+
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="email"],
+.form textarea,
+.form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form select {
+    height: 40px;
+}
+
+.form button {
+    padding: 10px 20px;
+    border: solid black;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #848080;
+    
+}
+
+.form input[type="radio"],
+.form input[type="checkbox"] {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.form label[for="sex"],
+.form label[for="language"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    resize: vertical;
+}
