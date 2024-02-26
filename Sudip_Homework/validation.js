@@ -1,5 +1,5 @@
 function validateForm(){
-    let x = document.forms["myForm"]["id"].value;
+    let x = document.forms.myForm.id.value;
     if (x==""){
         alert("Id must be filled out");
         return false;
