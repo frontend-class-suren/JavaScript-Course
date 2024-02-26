@@ -1,4 +1,4 @@
-function toggleForm(form) {
+function login(form) {
     var loginForm = document.getElementById('login-form');
     var signupForm = document.getElementById('signup-form');
 
