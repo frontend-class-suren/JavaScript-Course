@@ -12,16 +12,16 @@
       <h1 id="heading">Login Form</h1>
       <br />
       <div id="Form" class="login">
-        <button id="btn1" class="button1" onclick="btn1()">Login</button>
-        <button id="btn2" class="button2" onclick="btn2()">Signup</button>
+        <button onmouseover="mouseover(this)" onmouseout="mouseout(this)" id="btn1" class="button1"  onclick="btn1()">Login</button>
+        <button onmouseover="mouseover1(this)" onmouseout="mouseout1(this)" id="btn2" class="button2" onclick="btn2()">Signup</button>
       </div>
       <div id="demo">
-        <form action="#">
+        <form name="myform" action="#" onsubmit="validateform()">
           <br />
           <input
             type="text"
             placeholder="Email Address"
-            style="height: 35px; width: 282px; padding-left: 10px"
+            style="height: 35px; width: 282px; padding-left: 10px" name="Email"
             required
           /><br /><br />
           <input
