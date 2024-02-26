@@ -1,33 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login and Sign Up</title>
-    <link rel="stylesheet" href="LOGIN.CSS">
-    <link rel="stylesheet" href="LOGIN.JS">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="LOGIN.CSS" />
+  </head>
 
-<div class="loginform">
-    <h1>Login Form</h1>
-    <div class="login">
-        <button class="button1" onclick="toggleForm('login')">Login</button>
-        <button class="button2" onclick="toggleForm('signup')">Signup</button>
+  <body>
+    <div class="loginform">
+      <h1 id="heading">Login Form</h1>
+      <br />
+      <div id="Form" class="login">
+        <button onmouseover="mouseover(this)" onmouseout="mouseout(this)" id="btn1" class="button1"  onclick="btn1()">Login</button>
+        <button onmouseover="mouseover1(this)" onmouseout="mouseout1(this)" id="btn2" class="button2" onclick="btn2()">Signup</button>
+      </div>
+      <div id="demo">
+        <form name="myform" action="#" onsubmit="validateform()">
+          <br />
+          <input
+            type="text"
+            placeholder="Email Address"
+            style="height: 35px; width: 282px; padding-left: 10px" name="Email"
+            required
+          /><br /><br />
+          <input
+            type="password"
+            placeholder="Password"
+            style="height: 35px; width: 282px; padding-left: 10px"
+            required
+          />
+          <br />
+          <a style="color: rgb(184, 84, 101); text-decoration: none" href="#"
+            >Forgot Password</a
+          ><br />
+          <button class="btn3">Login</button><br /><br />
+          <p style="text-align: center">
+            Not a member<span style="color: rgb(217, 71, 119)"
+              >Signup now</span
+            >
+          </p>
+        </form>
+      </div>
     </div>
-    <form id="login-form" class="active">
-        <input type="text" placeholder="Email Address" required>
-        <input type="password" placeholder="Password" required>
-        <button type="submit">Login</button>
-        <p>Forgot your password? <a href="#" style="color: #f08080;">Reset it here</a></p>
-    </form>
-    <form id="signup-form">
-        <input type="text" placeholder="Email Address" required>
-        <input type="password" placeholder="Password" required>
-        <button type="submit">Signup</button>
-        <p>Already have an account? <a href="#" style="color: #ffa07a;">Login here</a></p>
-    </form>
-</div>
 
-</body>
+    <script src="LOGIN.JS"></script>
+  </body>
 </html>

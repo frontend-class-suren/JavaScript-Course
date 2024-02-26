@@ -72,17 +72,20 @@ function validateForm(){
     }
 }
 
-function mouseover(obj){
-    document.getElementById("btn1").style.backgroundColor = "rgb(217, 71, 119)";
-}
-function mouseout(obj){
-    document.getElementById("btn1").style.backgroundColor="white";
-    document.getElementById("btn1").style.color="black";
-}
-function mouseover1(obj){
-    document.getElementById("btn2").style.backgroundColor = "rgb(217, 71, 119)";
-}
-function mouseout1(obj){
-    document.getElementById("btn2").style.backgroundColor="white";
-    document.getElementById("btn2").style.color="black";
-}
+// function mouseover(obj){
+//     document.getElementById("btn1").style.backgroundColor = "rgb(217, 71, 119)";
+// }
+// function mouseout(obj){
+//     document.getElementById("btn1").style.backgroundColor="white";
+//     document.getElementById("btn1").style.color="black";
+// }
+// function mouseover1(obj){
+//     document.getElementById("btn2").style.backgroundColor = "rgb(217, 71, 119)";
+// }
+// function mouseout1(obj){
+//     document.getElementById("btn2").style.backgroundColor="white";
+//     document.getElementById("btn2").style.color="black";
+// }
+// function btn1(){
+//     document.getElementById("btn1").style.color=rgb(217, 71, 119);
+// }

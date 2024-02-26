@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="himal" onsubmit="return validateform()">
+    Name: <input type="text" name="name"><br/>
+    Password: <input type="password" name="password"><br/>
+
+    <input type="submit" value="register">
+    
+    </form>
+
+    <script>
+        function validateform(){
+        var name=document.himal.name.value;
+        var password=document.himal.password.value;
+
+        if (name==null || name==""){
+            alert("Name cannot be blank");
+            return false;
+        }
+         else if (password==null || password==""){
+            alert("password cannot be blank");
+            return false;
+        }else if(password.length<6){
+            alert("Passwords must be 6 digits");
+            return false;
+        }
+        }
+    </script>
+</body>
+</html>
