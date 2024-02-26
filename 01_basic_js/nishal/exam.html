@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form name="myForm" onsubmit="return validateform()">
+        name: <input type="text" name="name" />
+        password: <input type="text" name="password" />
+        <input type="submit" value="register" />
+    </form>
+    <script>
+        function validateform() {
+            var name = document.myForm.name.value;
+            var password = document.myForm.password.value;
+
+            if (name == null || name == "") {
+                alert("please fill up");
+                return false;
+            }
+            else if (password.length < 7) {
+                alert("you must type atleast 7 character long");
+                return false;
+            }
+        }
+    </script>
+</body>
+
+</html>

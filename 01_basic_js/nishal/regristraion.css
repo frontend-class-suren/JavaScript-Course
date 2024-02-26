@@ -1,76 +1,60 @@
-.registration-form {
-    background-color: #f9f9f9;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
     padding: 20px;
-    width: 400px;
-    margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.registration-form h1 {
+h1 {
     text-align: center;
-    margin-bottom: 20px;
-    color: #040303;
 }
 
-.form-group {
-    margin-bottom: 15px;
+form {
+    margin-top: 20px;
 }
 
-.form-group label {
-    display: block;
-    margin-bottom: 5px;
-    color: #110909;
-}
-
-.form-group input[type="text"],
-.form-group input[type="password"],
-.form-group input[type="email"],
-.form-group textarea,
-.form-group select {
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+textarea {
     width: 100%;
     padding: 10px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    outline: none;
+    box-sizing: border-box;
 }
 
-.form-group select {
-    height: 40px;
-}
-
-.form-group button {
-    padding: 10px 20px;
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
     border: none;
     border-radius: 5px;
-    background-color: #f08080;
     color: #fff;
     cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
-.form-group button:hover {
-    background-color: #e75454;
+button[type="submit"]:hover {
+    background-color: #0056b3;
 }
 
-.form-group input[type="radio"],
-.form-group input[type="checkbox"] {
+label {
+    font-weight: bold;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
     margin-right: 5px;
-    margin-bottom: 5px;
-}
-
-.form-group label[for="sex"],
-.form-group label[for="language"] {
-    display: block;
-    margin-bottom: 10px;
-}
-
-.form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-    resize: vertical;
 }
 
