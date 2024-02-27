@@ -1,106 +1,87 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #d600af;
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.loginform {
+    background-color: #f2f2f2;
+  }
+  
+  .loginform {
+    margin: 50px auto;
+    width: 300px;
     background-color: #fff;
     padding: 20px;
-    width: 350px;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.loginform h1 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.loginform .login {
+  }
+  .login{
     display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
+    color: aqua;
 
-.loginform .button1, .loginform .button2 {
-    padding: 10px 20px;
-    margin: 0 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    font-size: 16px;
-}
 
-.loginform .button1 {
-    background-color: #f08080;
-    color: #fff;
-}
 
-.loginform .button2 {
-    background-color: #ffa07a;
-    color: #333;
 }
-
-.loginform .button1:hover, .loginform .button2:hover {
-    background-color: #e75454;
-}
-
-.loginform form {
-    display: none;
-}
-
-.loginform form.active {
-    display: block;
-}
-
-.loginform form input[type="text"],
-.loginform form input[type="password"] {
-    width: calc(100% - 22px);
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-}
-
-.loginform form button {
-    width: calc(100% - 22px);
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #f08080;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.loginform form button:hover {
-    background-color: #e75454;
-}
-
-.loginform p {
+  #heading {
     text-align: center;
-    margin-top: 10px;
-}
-
-.loginform p a {
-    color: #f08080;
+  }
+  
+  .loginform input[type="text"],
+  .loginform input[type="password"],
+  .loginform input[type="number"] {
+    width: calc(100% - 20px);
+    height: 35px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+  }
+  
+  .loginform button {
+    width: calc(100% - 20px);
+    height: 35px;
+    margin-bottom: 10px;
+    background-color: rgb(217, 71, 119);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .loginform button:hover {
+    background-color: rgb(184, 84, 101);
+  }
+  
+  .loginform a {
+    color: rgb(184, 84, 101);
     text-decoration: none;
-    font-weight: bold;
-}
-
-.loginform p a:hover {
+  }
+  
+  .loginform a:hover {
     text-decoration: underline;
-}
+  }
+  
+  #Form {
+    text-align: center;
+  }
+  
+  #Form button {
+    margin: 0 5px;
+  }
+  
+  #demo {
+    margin-top: 20px;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  p span {
+    cursor: pointer;
+  }
+  
+  p span:hover {
+    text-decoration: underline;
+  }
+  
