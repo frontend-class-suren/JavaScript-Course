@@ -1,0 +1,28 @@
+<!-- Attaching an event handler to an element without overwriting existing event handlers: -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Event Listener Example</title>
+</head>
+<body>
+
+<button id="myButton">Click me</button>
+
+<script>
+const button = document.getElementById('myButton');
+
+// Existing event handler
+button.addEventListener('click', function() {
+  console.log('Existing event handler');
+});
+
+// Adding a new event handler without overwriting the existing one
+button.addEventListener('click', function() {
+  console.log('New event handler added');
+});
+</script>
+
+</body>
+</html>
