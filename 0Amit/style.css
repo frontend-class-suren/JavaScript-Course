@@ -1,0 +1,288 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html , body {
+    width:100%;
+    height:100%;
+
+}
+
+/* .container {
+    width:80%;
+} */
+
+
+.navBar{
+
+    display:flex;
+    justify-content:space-evenly;
+    /* background-color: rgb(247, 246, 246); */
+    height:100px;
+    width:100%;
+    margin:auto;
+    /* border-bottom: 2px solid black; */
+}
+
+.menu-sec h1 {
+    text-align: center;
+    /* display:none; */
+}
+
+.nav_header{
+    margin-top: 40px;
+    /* margin-right: 5%; */
+}
+
+.nav_header a{
+    font-family:'Poppins';
+    font-size: large;
+    font-weight: 400;
+    margin:0px 15px;
+    text-decoration: none;
+    color:black;
+}
+
+.nav_header a:hover{
+    /* text-decoration: underline; */
+    /* color:rgb(251, 245, 245); */
+    color:rgb(152, 240, 201);
+}
+
+.Sensi{
+    margin-left:30px;
+    margin-top: 30px;
+}
+.Sensi{
+    height:50px;
+    width:50px;
+}
+.Sensi h2 {
+    font-size: 30px;
+    color:rgb(24, 24, 25);
+}
+
+.Sensi h2:hover {
+    /* color:rgb(161, 200, 137); */
+    color:rgb(165, 233, 139);
+
+}
+
+.Searchh{
+
+    margin-left:30px;
+    margin-top: 30px;
+
+    height:50px;
+    width:50px;
+}
+.Searchh h2 {
+    font-size: 30px;
+    color:rgb(24, 24, 25);
+}
+
+.Searchh h2:hover {
+    /* color:rgb(161, 200, 137); */
+    color:rgb(165, 233, 139);
+
+}
+
+.Searchh a {
+    text-decoration: none;
+    color:black;
+}
+
+.Searchh a:hover {
+    color:rgb(165, 233, 139);
+    
+}
+
+.hero {
+        /* position:relative; */
+        background-color: whitesmoke;
+        /* padding-right: 20%; */
+        height:80vh;
+        width:100vw;
+        
+    
+}
+
+.image-sec {
+    background-image: url("/0Amit/dubai.webp");
+    height: 100%;
+    /* width:100%; */
+    font-weight: 300;
+
+color: aliceblue;
+    font-family: 'Poppins';
+    background-position:center;
+    /* margin-right: 10%; */
+    /* position:relative; */
+    /* object-fit:cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-sec h1{
+    font-size: 60px;
+}
+.image-sec h1 , p{
+    width:60%;
+    /* margin: auto; */
+    /* align-items: center; */
+    /* padding:20px; */
+    text-align: center;
+}
+
+
+
+button {
+
+    /* left: 40%; */
+    /* position: absolute; */
+    font-size: 30px;
+    padding:10px 30px;
+    color:white;
+    background-color: rgb(226, 70, 22);
+    text-align: center;
+    border: 1px solid none;
+    border-radius: 10px;
+}
+
+button:hover {
+    
+    
+    color: rgb(226, 70, 22);
+    background-color: white;
+
+
+}
+
+
+.hero1 {
+    font-family:'Poppins';
+    /* height:80vh; */
+    background-color: rgb(37, 73, 129);
+    /* width:80%; */
+    margin:auto;
+}
+
+.titlepart {
+    /* width:87%; */
+    margin: auto;
+    padding:50px;
+    display:Flex;
+    /* gap:20px; */
+    justify-content: space-between;
+}
+
+.left h1 {
+    font-weight: 400;
+    color: rgb(226, 70, 22);
+
+}
+
+.right h1 {
+    background-color: rgb(49, 142, 223);
+    border:1px solid black;
+    color:white;
+    padding:5px;
+    font-weight: 400;
+}
+
+.imagepart {
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    gap:20px;
+    padding:20px;
+    justify-content: space-around;
+
+}
+
+.box1 {
+    border: 4px solid rgb(255, 255, 255);
+    /* width:100vw; */
+    flex:1;
+    height:300px;
+}
+
+footer {
+    padding:60px 0px 0px 0px;
+    display:Flex;
+    height:40vh;
+    width:100%;
+    background-color: rgb(61, 85, 125);
+    justify-content: space-evenly;
+
+
+}
+
+.one {
+    height:30vh;
+    width:20vw;
+    border: 1px solid black;
+}
+
+
+@media only screen and (max-width: 1500px) {
+.Sensi{
+    display: none;
+
+}
+
+.Searchh {
+    display: none;
+}
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .nav_header a{
+        font-size: small;
+    }    
+
+    .image-sec h1 {
+        font-size: 50px;
+    }
+    
+    .image-sec p {
+        font-size: 20px;
+    }
+    button{
+        display:none;
+    }
+
+    .right h1 {
+        display: none;
+    }
+
+    .imagepart {
+        flex-direction: column;
+    }
+
+    footer {
+        align-items: center;
+        flex-direction: column;
+        gap:30px;
+    }
+
+}
+
+@media only screen and (max-width: 850px) {
+    .image-sec h1 {
+        font-size: 30px;
+    }
+    .image-sec p {
+        font-size: 15px;
+    }
+
+}
+.image-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
