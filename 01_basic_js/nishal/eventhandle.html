@@ -13,12 +13,11 @@
 <script>
 const button = document.getElementById('myButton');
 
-// Existing event handler
+
 button.addEventListener('click', function() {
   console.log('Existing event handler');
 });
 
-// Adding a new event handler without overwriting the existing one
 button.addEventListener('click', function() {
   console.log('New event handler added');
 });
