@@ -1,0 +1,28 @@
+<!-- Adding multiple event handlers of the same type to one element -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multiple Event Handlers Example</title>
+</head>
+<body>
+
+<button id="myButton">Click me</button>
+
+<script>
+const button = document.getElementById('myButton');
+
+
+button.addEventListener('click', function() {
+  console.log('First event handler');
+});
+
+
+button.addEventListener('click', function() {
+  console.log('Second event handler');
+});
+</script>
+
+</body>
+</html>

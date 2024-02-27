@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .heading{
+        display: flex;
+        justify-content: space-around;
+        /* margin-top: 1%; */
+        padding: 20px;
+        /* background-color: aqua; */
+        margin-left: 100px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .search{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    nav{
+        display: flex;
+        gap: 50px;
+        align-items: center;
+    }
+    nav li{
+        list-style: none;
+    }
+    nav li a{
+        text-decoration: none;
+        color: black;
+    }
+    #circle{
+        color: orangered;
+    }
+    #square{
+        color: aqua;
+    }
+    .blog{
+        border: 2px solid orangered;
+        padding: 3px;
+        padding-left: 8px;
+        padding-right: 8px;
+        background-color: orangered;
+        color: white;
+    }
+    .blog:hover{
+        background-color: white;
+        color: orangered;
+        padding: 3px;
+        padding-left: 8px;
+        padding-right: 8px;
+        
+
+    }
+    #srch{
+        border: 2px solid orangered;
+        padding: 5px;
+        background-color: orangered;
+
+    }
+    #srch:hover{
+        background-color: black;
+        color: orangered;
+    }
+    nav li a:hover{
+        background-color: aqua;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        /* padding-left: 5px;
+        padding-right: 5px; */
+    }
+    
+    .active1{
+        background-color: aqua;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .bar i{
+        display: none;
+    }
+    @media(max-width:1070px){
+        .bar i{
+            display: block;
+            font-size: 40px;
+        }
+        nav{
+            display: none;
+        }
+        .search{
+            display: none;
+        }
+        .heading{
+            display: flex;
+            justify-content: space-between;
+            margin-left: 0;
+        }
+     }
+     .body1{
+        background-image: url("./background.jpeg");
+        width: 100%;
+        height: 600px;
+        background-size: cover;
+        /* background-origin: border-box; */
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        flex-direction: column;
+     }
+     .body1 h1{
+        font-size: 50px;
+        color: white;
+        text-align: center;
+     }
+     .body1 p{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+     }
+
+     button{
+        background-color: orangered;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        
+     }
+     button:hover{
+        background-color: white;
+        color: orangered;
+     }
+     @media(max-width:584px){
+        .body1 h1{
+            font-size: 35px;
+        }
+        .body1 p{
+            font-size: 10px;
+        }
+        button{
+            font-size: 10px;
+        }
+     }
+     .body2-1{
+        display: flex;
+        justify-content: center;
+        
+     }
+     .body2-1 p{
+        font-size: 30px;
+        font-weight: bold;
+        background-color: aqua;
+        color: white;
+        display: inline-block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+     }
+
+
+
+
+
+
+</style>
+<body>
+    <section class="heading">
+        <div class="logo">
+            <i id="circle" class="fa-solid fa-circle"></i>
+            <i id="square" class="fa-solid fa-square"></i>
+            <h1>YOUR LOGO</h1>
+        </div>
+        <nav>
+            <li><a class="active1" href="">Home</a></li>
+            <li><a class="active" href="">Portfolio</a></li>
+            <li><a class="active" href="">About</a></li>
+            <li><a class="active" href="">Contact</a></li>
+            <li><a class="blog" href="">Blog</a></li>
+        </nav>
+        <div class="search">
+            <p>Search</p>
+            <i id="srch" class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="bar">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </section>
+
+    <section class="body1">
+        <div class="text">
+        <h1>GOOD DESIGN IS GOOD BUSINESS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus asperiores amet sint illo <br> laborum reiciendis saepe aut autem esse ut ad exercitationem, dignissimos distinctio eligendi fuga, quo animi? Aperiam, magni?</p>
+    </div><br><br>
+    <div class="btn1">
+        <button>LEARN MORE</button>
+    </div>
+    </section>
+    <section class="body2">
+        <div class="body2-1">
+        <p>OUR SERVICES</p>
+    </div>
+        <div class="services">
+            <div class="box1">
+                <h1>Web Design</h1>
+                <p>Lorem ipsum dolor sit amet. <br>Lorem, ipsum dolor. <br>Lorem ipsum dolor sit amet. Lorem, ipsum. <span style="color: blue;">Details...</span></p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
