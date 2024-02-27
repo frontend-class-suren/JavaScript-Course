@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mouseover</title>
+  <style>
+    #myElement {
+      width: 100px;
+      height: 50px;
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+
+<div id="myElement">Hover over me!</div>
+
+<script>
+  
+  let myElement = document.getElementById('myElement');
+
+  
+  myElement.addEventListener('mouseover', function() {
+    myElement.style.backgroundColor = 'lightgreen';
+    myElement.style.color = 'white';
+
+  });
+
+  
+  myElement.addEventListener('mouseout', function() {
+    myElement.style.backgroundColor = 'yellow';
+    myElement.style.color = 'blue';
+  });
+
+  myElement.addEventListener('click', function() {
+    myElement.style.backgroundColor = 'lightblue';
+    myElement.style.color = 'red';
+
+  });
+</script>
+
+</body>
+</html>

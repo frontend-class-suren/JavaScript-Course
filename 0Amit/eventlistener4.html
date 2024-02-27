@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div{
+font-size: 25px;
+margin: 30px 50px;
+}
+</style>
+</head>
+<body>
+<div id = "first">
+HELLO.
+<br><br>
+<span id = "second"> Amit. </span>
+</div>
+<div id = "first1"> Apple.
+<br><br>
+<span id = "second1"> Acer. </span>
+</div>
+
+<script>
+document.getElementById("first").addEventListener("dblclick", function() {alert('You have double clicked on Hello')}, true);
+document.getElementById("first1").addEventListener("dblclick", function() {alert('You have double clicked on Apple')}, true);
+document.getElementById("second").addEventListener("dblclick", function() {alert('You have double clicked on  Amit(span)')}, true);
+document.getElementById("second1").addEventListener("dblclick", function() {alert('You have double clicked on Acer(span)')}, true)
+</script>
+</body>
+</html>
