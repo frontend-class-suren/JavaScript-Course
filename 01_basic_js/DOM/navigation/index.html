@@ -1,0 +1,210 @@
+<! DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1,  
+        shrink-to-fit = no"
+  />
+  <head>
+    <title>
+      how to make curved active tab in navigation menu using HTML, CSS &
+      JavaScript
+    </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <style>
+      body {
+        color: #fff;
+        font-family: "Raleway";
+        font-size: 1.6rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        height: 100vh;
+        margin: 0;
+        text-transform: uppercase;
+      }
+      .gradient-background {
+        background: linear-gradient(100deg, #200c32, #e74d89, #febaa6);
+        background-size: 180% 180%;
+        animation: gradient-animation 3s ease infinite;
+      }
+      @keyframes gradient-animation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      .navbar {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        height: auto;
+        width: 100%;
+        background: #338773;
+      }
+
+      .navbar ul {
+        display: flex;
+        list-style-type: none;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+        margin-bottom: 0px;
+        padding-left: 40px;
+      }
+
+      .navbar ul li {
+        display: inline;
+        list-style: none;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 1rem;
+        border-radius: 20px 20px 0px 0px;
+        position: relative;
+      }
+      .navbar ul li.active {
+        background: #fff;
+      }
+
+      .navbar ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-family: "Bangers", cursive;
+      }
+
+      .navbar ul li.active a {
+        color: #308d46;
+      }
+
+      li.active a::before {
+        content: " ";
+        left: -30px;
+        bottom: 0;
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        background: #338773;
+        border-radius: 50%;
+        box-shadow: 15px 15px 0 #fff;
+      }
+
+      li.active a::after {
+        content: " ";
+        right: -30px;
+        bottom: 0;
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        background: #338773;
+        border-radius: 50%;
+        box-shadow: -15px 15px 0 #fff;
+      }
+      h3 {
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        white-space: nowrap;
+        z-index: 1000;
+        font-family: "Bangers", cursive;
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.7);
+        @include skew(0, -6.7deg, false);
+        @include transition-property(font-size);
+        @include transition-duration(0.5s);
+      }
+      h2 {
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 1.2em;
+        white-space: nowrap;
+        font-size: 3vw;
+        z-index: 1000;
+        font-family: "Bangers", cursive;
+        text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.7);
+        @include skew(0, -6.7deg, false);
+        @include transition-property(font-size);
+        @include transition-duration(0.5s);
+      }
+    </style>
+  </head>
+  <body class="gradient-background">
+    
+    <div class="navbar">
+      <ul>
+        <li class="list-item">
+          <b class=""> </b>
+          <b class=""> </b>
+          <a>
+            <i class="fa fa-home"> </i>
+            Home
+          </a>
+        </li>
+        <li class="list-item">
+          <b class="left-curve"> </b>
+          <b class="right-curve"> </b>
+          <a>
+            <i class="fa fa-book"> </i>
+            Courses
+          </a>
+        </li>
+        <li class="list-item">
+          <b class="left-curve"> </b>
+          <b class="right-curve"> </b>
+          <a>
+            <i class="fa fa-image"> </i>
+            Gallery
+          </a>
+        </li>
+        <li class="list-item">
+          <b class="left-curve"> </b>
+          <b class="right-curve"> </b>
+          <a>
+            <i class="fa fa-user"> </i>
+            Profile
+          </a>
+        </li>
+        <li class="list-item active">
+          <b class="left-curve"> </b>
+          <b class="right-curve"> </b>
+          <a>
+            <i class="fa fa-envelope"> </i>
+            Subscribe
+          </a>
+        </li>
+        <li class="list-item active">
+          <b class="left-curve"> </b>
+          <b class="right-curve"> </b>
+          <a>
+            <i class="fa fa-phone"> </i>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+  </body>
+  <script>
+    $(function () {
+      $("li").click(function (e) {
+        e.preventDefault();
+        $("li").removeClass("active");
+        $(this).addClass("active");
+      });
+    });
+  </script>
+</html>

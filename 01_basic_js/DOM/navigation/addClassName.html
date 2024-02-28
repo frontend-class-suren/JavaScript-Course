@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>  
+        <title>  
+        add class name using JavaScript  
+        </title>  
+          
+        <style>  
+        .para {  
+        font-size: 30px;  
+        background-color: yellow;  
+        color: blue;  
+        border: 2px dotted red;  
+        }  
+        </style>  
+        </head>  
+          
+        <body>  
+          
+        <h1>  
+        Hello World :)  
+        </h1>  
+          
+        <p id = "p1">  
+        Welcome to the javaTpoint.com  
+        </p>  
+        <p> Click the following button to see the effect. </p>  
+        <button onclick = "fun()">  
+        Add Class  
+        </button>  
+        <script>  
+        function fun() {  
+        var a = document.getElementById("p1");  
+        a.className = "para";  
+        }  
+        </script>  
+        </body>  
+</html>
