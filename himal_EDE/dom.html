@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html dom</title>
+</head>
+<body>
+<h2>JavaScript HTML DOM</h2>
+<p>html element rakhdeu</p>
+
+<div id="div1">
+<p id="p1">yo paragraph vaihalyo</p>
+<p id="p2">yo aarko paragrapgh vaihalo</p>
+</div>
+
+<script>
+const para = document.createElement("p");
+const node = document.createTextNode("This is new.");
+para.appendChild(node);
+const element = document.getElementById("div1");
+element.appendChild(para);
+</script>
+</body>
+</html>
