@@ -1,0 +1,18 @@
+JavaScript Animation
+In this article, we are going to discuss JavaScript animation with its functions.
+
+What is JavaScript Animation?
+JavaScript animations are done by incremental programming changes in the style of an element. JavaScript animations can perform tasks that CSS cannot. JavaScript could be used to transfer several DOM elements across the page in accordance with a logical equation or function. JavaScript includes the three functions mentioned below, which are commonly used in animation programs.
+
+setTimeout (function, duration): This function can be used to call the function after a millisecond delay.
+setInterval (function, duration): This function can be used to call the function after each duration milliseconds.
+clearTimeout (setTimeout_variable): This function can be used to clear the timer that has been set by the setTimeout()
+JavaScript can also modify a DOM object"s attributes, such as its location on the screen. An object"s top and left attributes can be set to place it anywhere on the frame. The syntax of JavaScript may be defined as:
+
+// Set the distance from the left side of the screen.  
+object.style.left = distance in pixels or points;   
+and  
+// Set the distance from the top side of the screen.  
+object.style.top = distance in pixels or points;  
+Example:
+Let"s take a basic example to understand how we can create a basic JavaScript Animation web page.

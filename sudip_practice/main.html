@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="div1">
+        <p id="p1">Hello</p>
+        <p id="p2">World!</p>
+    </div>
+    <script>
+        let para = document.createElement("p");
+        let node = document.createTextNode("Hello developer!");
+        para.appendChild(node);
+        const element = document.getElementById('div1');
+        const child = document.getElementById('p1');
+        const child1 = document.getElementById('p2');
+        // element.appendChild(para);
+        element.insertBefore(para, child);
+        element.insertBefore(para, child1)
+    </script>
+</body>
+</html>
