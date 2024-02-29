@@ -5,7 +5,7 @@ function myfunction(){
     if (inputValue === "") {
         alert("Field is required");
         return;
-    }
+    }else{
 
     let list = document.getElementById("list");
     let newContent = document.createElement("li");
@@ -13,6 +13,7 @@ function myfunction(){
     list.appendChild(newContent); 
     
     //to show the new addded text in first
-    // list.insertBefore(newContent, list.firstChild)
+    list.insertBefore(newContent, list.firstChild)
     input.value = "";
+}
 }
