@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var notShow = false;
+        function formCOmment(){
+            var formData = "<form action=''>enter_name<br><input type='text'><br>mail:<br><input type='email'><br>Comment:<br><textarea rows='20' cols='30'></textarea></form>";
+            if(notShow)
+            {
+                document.getElementById("form").innerHTML = formData;
+                notShow= false;
+            }else {
+                document.getElementById("form").innerHTML = "";
+                notShow= true;
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onClick="formCOmment()">Show</button>
+    <div id="form"></div>
+</body>
+</html>
