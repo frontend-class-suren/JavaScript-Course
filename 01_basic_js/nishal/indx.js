@@ -10,7 +10,7 @@ function myfunction(){
     //to show the new addded text in first
     // list.insertBefore(newContent, list.firstChild)
     input.value = "";
-
+  
 let deleteButton = document.createElement("button");
             deleteButton.textContent = "Delete";
             deleteButton.onclick = function() {
