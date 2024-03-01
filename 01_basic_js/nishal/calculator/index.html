@@ -86,7 +86,7 @@
             <button onclick="appendToDisplay('.')">.</button>
             <button onclick="calculate()">=</button>
             <button onclick="appendToDisplay('/')">/</button>
-        </div>
+            <button onclick="deleteLast()">DEL</button>       
     </div>
     <script>
         function clearDisplay() {
@@ -97,6 +97,10 @@
         }
         function calculate() {
             document.getElementById('display').value = eval(document.getElementById('display').value);
+        }
+        function deleteLast() {
+            var display = document.getElementById('display');
+            display.value = display.value.slice(0, -1);
         }
     </script>
 </body>
