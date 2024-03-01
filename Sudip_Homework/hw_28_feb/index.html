@@ -5,12 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    table {
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid black ; 
+    padding: 8px;
+    background-color: aliceblue;
+}
+
+td {
+    border: 1px solid black; 
+    padding: 8px;
+
+}
+</style>
 <body>
     <form name="myForm" action="" onsubmit="return myForm()">
-    <input id="text" type="text" name="text" value="">
+    <input id="text" type="text" name="text" value="" placeholder="Enter the Item">
+    <input id="action" type="text" name="action" placeholder="Enter the action">
     <button onclick="myfunction()" type="button">Add</button>
-</form>
-<ul id="list"></ul>
+</form> <br><br>
+<!-- <ul id="list"></ul> -->
+<table id="table">
+    <thead>
+        <th>S.N</th>
+        <th>Item</th>
+        <th>Action</th>
+    </thead>
+    <tbody id="tbody"></tbody>
+</table>
+
 
 <script src="main.js"></script>
 </body>
