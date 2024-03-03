@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Callback, promises, async/await</h1>
+    <h3 id="demo2"></h3>
+    <h2 id="demo"></h2>
+    <h4 id="demo3"></h4>
+    <h5 id="demo4"></h5>
+    
+    <script>
+
+        //asynchronous simple example
+        //  document.getElementById('demo2').innerHTML = 'one';
+        // function hello(){
+        //     document.getElementById('demo').innerHTML = "I think you wait 3 second for me ";
+        // }
+        // setTimeout(hello, 3000);
+
+        // document.getElementById('demo3').innerHTML = 'two';
+
+
+        //promises
+// Creating a Promise
+const myPromise = new Promise((resolve, reject) => {
+    // Simulating an asynchronous operation
+    setTimeout(() => {
+        // Resolving the Promise with a value
+        resolve('Promise resolved!');
+    }, 2000); // Simulating a delay of 2 seconds
+});
+
+// Using the Promise
+myPromise.then(result => {
+    // Handling the resolved value
+    console.log(result); // Output: Promise resolved!
+}).catch(error => {
+    // Handling any errors that might occur
+    console.error('Error:', error);
+});
+
+
+        
+    </script>
+</body>
+</html>

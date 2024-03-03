@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">Click me</button>
+    <h2 id="demo1"></h2>
+    <h1 id="demo2"></h1>
+    <h3 id="demo3"></h3>
+    <script>
+        //example 1
+        // function myclick(){
+        //     document.getElementById('demo1').innerHTML = "Button clicked"
+        // }
+        // const button = document.getElementById('btn');
+        // button.addEventListener('click', myclick);
+
+
+        //example 2
+        //      function delayedAlert() {
+        //     document.getElementById('demo2').innerHTML = "Hello"
+        // }
+        // setTimeout(delayedAlert, 2000);
+
+        //example 3
+
+        function myDisplayer(something){
+            document.getElementById('demo3').innerHTML = something;
+        }
+        function myCalculator(num1, num2, myCallBack){
+            let sum = num1 +num2;
+        
+            myCallBack(sum);
+        }
+        myCalculator(5, 5, myDisplayer)
+    </script>
+    
+</body>
+</html>
