@@ -9,9 +9,9 @@ addToDoButton.addEventListener('click', function(){
     todocontainer.appendChild(paragraph);
     inputfield.value = "";
     paragraph.addEventListener('click', function(){
-        paragraph.style.tectDecoration ="line-through";
+        paragraph.style.textDecoration ="line-through";
     })
     paragraph.addEventListener('dblclick', function(){
-        todocontainer.removeChildid(paragraph);
+        todocontainer.removeChild(paragraph);
     })
 })
