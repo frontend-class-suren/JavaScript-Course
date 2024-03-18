@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nishal</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 10%;
+        }
+        
+        th, td {
+            border: 1px solid #990909;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #830d0d;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <input id="name" type="text" name="name" placeholder="Name">
+        <input id="address" type="text" name="address" placeholder="Address">
+        <button onclick="myfunction()" type="button">Add</button>
+    </form>
+    <table id="myTable">
+        <thead>
+            <tr>
+                <th>SN</th>
+                <th>Name</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script>
+        function myfunction() {
+            let nameInput = document.getElementById("name");
+            let addressInput = document.getElementById("address");
+            let nameValue = nameInput.value.trim();
+            let addressValue = addressInput.value.trim();
+
+            if (nameValue !== "") {
+                let table = document.getElementById("myTable").getElementsByTagName("tbody")[0];
+                let newRow = table.insertRow(-1);
+
+                let serialNumber = table.rows.length;
+                let snCell = newRow.insertCell(0);
+                snCell.textContent = serialNumber;
+
+                let nameCell = newRow.insertCell(1);
+                nameCell.textContent = nameValue;
+
+                let addressCell = newRow.insertCell(2);
+                addressCell.textContent = addressValue;
+
+                nameInput.value = "";
+                addressInput.value = "";
+            } else {
+                alert("Please enter a name before adding!");
+            }
+        }
+    </script>
+</body>
+</html>
