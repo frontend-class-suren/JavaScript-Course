@@ -1,0 +1,136 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #000;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    border-radius: 4px;
+}
+.card h2{
+    font-weight: bolder;
+}
+
+.inputBox{
+    width: 50%;
+    padding: 12px;
+    background: #d5d4d4;
+    border-radius: 8px;
+    border: none;
+}
+
+.btnSearch{
+    color: #fff;
+    width: 30%;
+    padding: 12px;
+    background: rgb(237, 86, 11);
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+.btnSearch:hover{
+    background: rgb(182, 75, 21);
+}
+
+.titleCard{
+    padding: 12px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title{
+    text-align: center;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+.title span{
+    color: #2e8cea;
+}
+
+.desc{
+    text-align: center;    
+    color: #b3b3b3;
+    letter-spacing: 2px;
+    line-height: 22px;
+}
+
+
+/* Output from web  */
+
+.output{
+    visibility: hidden;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    margin-top: 20px;
+    color: #ffffff;
+    background: #043566;
+    border-radius: 4px;
+}
+.tempCard{
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: self-start;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+#temp{
+    margin: 0;
+    font-size: 72px;
+}
+#sup{
+    color: #fff;
+}
+
+#loc-time{
+    font-style: italic;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.cityNameCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#city-name{
+    font-size: 16px;
+    color: #ffffff;
+    padding: 14px;
+}
+#countryName{
+    background: #ec7805;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
